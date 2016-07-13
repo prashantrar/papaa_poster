@@ -1,0 +1,133 @@
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+%\vspace{-0.2em}
+%\setlength\fboxsep{0pt}
+\setlength\fboxrule{0pt}
+\begin{center}
+	\fcolorbox{white}{white!100}{
+		\fbox{
+			\begin{minipage}{8em}
+				\begin{center}      	
+					\begin{tikzpicture}[>=latex',line join=bevel, scale = 0.26]
+					\centering
+					\tiny
+					\node (N8) at (92.0bp,124.5bp) [draw=black,ellipse,fill=red!20] {add\_Imm\_5\_N8};
+					\node (N9) at (46.0bp,10.5bp) [draw=black,ellipse,fill=red!20] {O0\_N9};
+					\node (N1) at (112.0bp,466.5bp) [draw=black,ellipse,fill=red!20] {I0\_N1};
+					\node (N2) at (46.0bp,67.5bp) [draw=black,ellipse,fill=red!20] {mul\_N2};
+					\node (N3) at (102.0bp,238.5bp) [draw=black,ellipse,fill=red!20] {mul\_N3};
+					\node (N4) at (112.0bp,409.5bp) [draw=black,ellipse,fill=red!20] {mul\_Imm\_16\_N4};
+					\node (N5) at (112.0bp,352.5bp) [draw=black,ellipse,fill=red!20] {mul\_N5};
+					\node (N6) at (102.0bp,181.5bp) [draw=black,ellipse,fill=red!20] {mul\_N6};
+					\node (N7) at (112.0bp,295.5bp) [draw=black,ellipse,fill=red!20] {sub\_Imm\_20\_N7};
+					\draw [->] (N1) ..controls (146.27bp,446.62bp) and (178.55bp,423.54bp)  .. (167.0bp,399.0bp) .. controls (160.57bp,385.33bp) and (147.79bp,374.36bp)  .. (N5);
+					\draw [->] (N1) ..controls (159.02bp,444.04bp) and (224.0bp,407.12bp)  .. (224.0bp,353.5bp) .. controls (224.0bp,353.5bp) and (224.0bp,353.5bp)  .. (224.0bp,294.5bp) .. controls (224.0bp,243.78bp) and (166.06bp,209.78bp)  .. (N6);
+					\draw [->] (N3) ..controls (102.0bp,220.91bp) and (102.0bp,211.14bp)  .. (N6);
+					\draw [->] (N4) ..controls (112.0bp,391.91bp) and (112.0bp,382.14bp)  .. (N5);
+					\draw [->] (N5) ..controls (112.0bp,334.91bp) and (112.0bp,325.14bp)  .. (N7);
+					\draw [->] (N1) ..controls (64.984bp,444.04bp) and (0.0bp,407.12bp)  .. (0.0bp,353.5bp) .. controls (0.0bp,353.5bp) and (0.0bp,353.5bp)  .. (0.0bp,180.5bp) .. controls (0.0bp,144.98bp) and (20.045bp,107.55bp)  .. (N2);
+					\draw [->] (N7) ..controls (108.98bp,277.91bp) and (107.21bp,268.14bp)  .. (N3);
+					\draw [->] (N1) ..controls (84.093bp,450.73bp) and (65.284bp,437.6bp)  .. (57.0bp,420.0bp) .. controls (31.453bp,365.71bp) and (34.192bp,340.5bp)  .. (57.0bp,285.0bp) .. controls (62.03bp,272.76bp) and (72.121bp,262.06bp)  .. (N3);
+					\draw [->] (N8) ..controls (77.444bp,106.1bp) and (68.035bp,94.846bp)  .. (N2);
+					\draw [->] (N2) ..controls (46.0bp,49.908bp) and (46.0bp,40.144bp)  .. (N9);
+					\draw [->] (N1) ..controls (112.0bp,448.91bp) and (112.0bp,439.14bp)  .. (N4);
+					\draw [->] (N6) ..controls (98.983bp,163.91bp) and (97.208bp,154.14bp)  .. (N8);
+					%
+					
+					\end{tikzpicture}
+					
+					
+					
+					%\includegraphics[width=26em]{fu_new}
+				\end{center}    
+				
+			\end{minipage}
+						\begin{minipage}{8em}
+							\begin{center}      	
+								
+								
+								\begin{tikzpicture}[>=latex',line join=bevel, scale = 0.26]
+								\tiny%
+								\node (N8) at (92.0bp,124.5bp) [draw=black,ellipse] {add\_Imm\_5\_N8};
+								\node (N9) at (46.0bp,10.5bp) [draw=black,ellipse,fill=red!20] {O0\_N9};
+								\node (N1) at (112.0bp,466.5bp) [draw=black,ellipse,fill=red!20] {I0\_N1};
+								\node (N2) at (46.0bp,67.5bp) [draw=black,ellipse,fill=red!20] {mul\_N2};
+								\node (N3) at (102.0bp,238.5bp) [draw=black,ellipse,fill=red!20] {mul\_N3};
+								\node (N4) at (112.0bp,409.5bp) [draw=black,ellipse,fill=red!20] {mul\_Imm\_16\_N4};
+								\node (N5) at (112.0bp,352.5bp) [draw=black,ellipse] {mul\_N5};
+								\node (N6) at (102.0bp,181.5bp) [draw=black,ellipse] {mul\_N6};
+								\node (N7) at (112.0bp,295.5bp) [draw=black,ellipse] {sub\_Imm\_20\_N7};
+								\draw [->] (N1) ..controls (146.27bp,446.62bp) and (178.55bp,423.54bp)  .. (167.0bp,399.0bp) .. controls (160.57bp,385.33bp) and (147.79bp,374.36bp)  .. (N5);
+								\draw [->] (N1) ..controls (159.02bp,444.04bp) and (224.0bp,407.12bp)  .. (224.0bp,353.5bp) .. controls (224.0bp,353.5bp) and (224.0bp,353.5bp)  .. (224.0bp,294.5bp) .. controls (224.0bp,243.78bp) and (166.06bp,209.78bp)  .. (N6);
+								\draw [->] (N3) ..controls (102.0bp,220.91bp) and (102.0bp,211.14bp)  .. (N6);
+								\draw [->] (N4) ..controls (112.0bp,391.91bp) and (112.0bp,382.14bp)  .. (N5);
+								\draw [->] (N5) ..controls (112.0bp,334.91bp) and (112.0bp,325.14bp)  .. (N7);
+								\draw [->] (N1) ..controls (64.984bp,444.04bp) and (0.0bp,407.12bp)  .. (0.0bp,353.5bp) .. controls (0.0bp,353.5bp) and (0.0bp,353.5bp)  .. (0.0bp,180.5bp) .. controls (0.0bp,144.98bp) and (20.045bp,107.55bp)  .. (N2);
+								\draw [->] (N7) ..controls (108.98bp,277.91bp) and (107.21bp,268.14bp)  .. (N3);
+								\draw [->] (N1) ..controls (84.093bp,450.73bp) and (65.284bp,437.6bp)  .. (57.0bp,420.0bp) .. controls (31.453bp,365.71bp) and (34.192bp,340.5bp)  .. (57.0bp,285.0bp) .. controls (62.03bp,272.76bp) and (72.121bp,262.06bp)  .. (N3);
+								\draw [->] (N8) ..controls (77.444bp,106.1bp) and (68.035bp,94.846bp)  .. (N2);
+								\draw [->] (N2) ..controls (46.0bp,49.908bp) and (46.0bp,40.144bp)  .. (N9);
+								\draw [->] (N1) ..controls (112.0bp,448.91bp) and (112.0bp,439.14bp)  .. (N4);
+								\draw [->] (N6) ..controls (98.983bp,163.91bp) and (97.208bp,154.14bp)  .. (N8);
+								%
+								\begin{pgfonlayer}{background}
+								\draw[rounded corners=1em,line width=3em,blue!20,cap=round]
+								(N5.center) -- (N7.center);
+								\draw[rounded corners=1em,line width=3em,blue!20,cap=round]
+								(N6.center) -- (N8.center);
+								
+								\end{pgfonlayer}
+								
+								\end{tikzpicture}
+								
+								%\includegraphics[width=26em]{fu_new}
+							\end{center}    
+							
+						\end{minipage}
+
+						\begin{minipage}{8em}
+							\begin{center}      	
+								
+								
+								\begin{tikzpicture}[>=latex',line join=bevel, scale = 0.26]
+								\tiny%
+								\node (N9) at (46.0bp,10.5bp) [draw=black,ellipse,fill=red!20] {O0\_N7};
+								\node (N1) at (112.0bp,466.5bp) [draw=black,ellipse,fill=red!20] {I0\_N1};
+								\node (N2) at (46.0bp,67.5bp) [draw=black,ellipse,fill=red!20] {mul\_N2};
+								\node (N3) at (102.0bp,238.5bp) [draw=black,ellipse,fill=red!20] {mul\_N3};
+								\node (N4) at (112.0bp,409.5bp) [draw=black,ellipse,fill=red!20] {mul\_Imm\_16\_N4};
+								\node (N5) at (112.0bp,352.5bp) [draw=black,ellipse,fill=red!20] {mul\_sub\_Imm\_20\_N5};
+								\node (N6) at (102.0bp,181.5bp) [draw=black,ellipse,fill=red!20] {mul\_add\_Imm\_5\_N6};
+								
+								\draw [->] (N1) ..controls (146.27bp,446.62bp) and (178.55bp,423.54bp)  .. (167.0bp,399.0bp) .. controls (160.57bp,385.33bp) and (147.79bp,374.36bp)  .. (N5);
+								\draw [->] (N1) ..controls (159.02bp,444.04bp) and (224.0bp,407.12bp)  .. (224.0bp,353.5bp) .. controls (224.0bp,353.5bp) and (224.0bp,353.5bp)  .. (224.0bp,294.5bp) .. controls (224.0bp,243.78bp) and (166.06bp,209.78bp)  .. (N6);
+								\draw [->] (N3) ..controls (102.0bp,220.91bp) and (102.0bp,211.14bp)  .. (N6);
+								\draw [->] (N4) ..controls (112.0bp,391.91bp) and (112.0bp,382.14bp)  .. (N5);
+								\draw [->] (N5) ..controls (112.0bp,334.91bp) and (112.0bp,325.14bp)  .. (N3);
+								\draw [->] (N1) ..controls (64.984bp,444.04bp) and (0.0bp,407.12bp)  .. (0.0bp,353.5bp) .. controls (0.0bp,353.5bp) and (0.0bp,353.5bp)  .. (0.0bp,180.5bp) .. controls (0.0bp,144.98bp) and (20.045bp,107.55bp)  .. (N2);
+								\draw [->] (N1) ..controls (84.093bp,450.73bp) and (65.284bp,437.6bp)  .. (57.0bp,420.0bp) .. controls (31.453bp,365.71bp) and (34.192bp,340.5bp)  .. (57.0bp,285.0bp) .. controls (62.03bp,272.76bp) and (72.121bp,262.06bp)  .. (N3);
+								\draw [->] (N2) ..controls (46.0bp,49.908bp) and (46.0bp,40.144bp)  .. (N9);
+								\draw [->] (N1) ..controls (112.0bp,448.91bp) and (112.0bp,439.14bp)  .. (N4);
+								\draw [->] (N6) ..controls (98.983bp,163.91bp) and (97.208bp,154.14bp)  .. (N2);
+								%
+								
+								\end{tikzpicture}								
+							\end{center}    
+							
+						\end{minipage}
+						\begin{minipage}{16em}
+							\begin{center}      	
+%							\includegraphics[trim=5em 5em 5em 5em, width=12em]{par}	
+							\includegraphics[width=12em]{par_cropped}	
+								
+							\end{center}    
+							
+						\end{minipage}
+			
+		}
+	}
+\end{center}
+
+

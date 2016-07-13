@@ -1,0 +1,49 @@
+%\vspace{-0.9em}
+%\setlength\fboxsep{0pt}
+\setlength\fboxrule{0pt}
+\begin{center}
+	\fcolorbox{white}{white!100}{
+		\fbox{
+			\begin{minipage}{38em}
+				\begin{center}
+					
+					\tiny
+					\begin{tabular}{@{}lc@{}r@{\phantom{x}}r@{\phantom{x}}r@{\phantom{x}}r@{}c@{}r@{\phantom{x}}r@{}c@{}r@{\phantom{x}}r@{\phantom{x}}r@{}c@{}r@{\phantom{x}}r@{\phantom{x}}r@{\phantom{x}}r@{\phantom{x}}r@{}}
+						\toprule
+						&\phantom{xx}&\multicolumn{4}{c}{Benchmark Characteristics}&\phantom{xx} 			&\multicolumn{2}{c}{Routability} 	&\phantom{xx}&\multicolumn{3}{c}{Overlay Results}	&\phantom{xx}	&\multicolumn{5}{c}{HLS Implementation Results}				\\
+						\cline{3-6} \cline{8-9} \cline{11-13} \cline{15-19}
+						Benchmark	&& i/o 		& op		& merged		& savings		&& CW=2					& CW=4 							&& Latency	& MLI 	& \textbf{GOPS}					    && Latency	& Fmax 	& \textbf{GOPS}		& Slices	& DSPs		    \\
+									&& nodes	& nodes		& nodes			& 				&& 						&  								&& 			& 	 	& 						   			&& 			& 	 	& 			& 			& 			    \\
+						\midrule
+						chebyshev && 1/1		& 7			& 5				& 28\%			&& 3$\times$3			& 3$\times$3					&& 49		& 36	& \textbf{2.59}						&& 13		& 333	& \textbf{2.3}		& 24		& 3 		\\
+						
+						sgfilter  && 2/1		& 18		& 10			& 44\%			&& 4$\times$4			& 4$\times$4					&& 54		& 31	& \textbf{6.66}						&& 11		& 278	& \textbf{5.0}		& 40		& 8 		\\
+						
+						mibench   && 3/1		& 13		& 6				& 53\%			&& 3$\times$3			& 3$\times$3					&& 47		& 35	& \textbf{4.81}						&& 9 		& 295	& \textbf{3.8} 		& 81		& 3 		\\
+						
+						qspline   && 7/1		& 26		& 22			& 15\%			&& 5$\times$5			& 5$\times$5					&& 76		& 64	& \textbf{9.62}						&& 21		& 244	& \textbf{6.3}		& 126		& 14		\\
+						
+						poly1     && 2/1		& 9			& 6				& 33\%			&& 3$\times$3			& 3$\times$3					&& 34	 	& 22	& \textbf{3.33}						&& 12	 	& 285	& \textbf{2.56}		& 62		& 4			\\
+						
+						poly2     && 2/1		& 9			& 6				& 33\%			&& 3$\times$3			& 3$\times$3					&& 29		& 7		& \textbf{3.33}						&& 11		& 295	& \textbf{2.65}		& 45		& 4			\\
+						
+						poly3     && 6/1		& 11		& 7				& 36\%			&& 3$\times$3			& 3$\times$3					&& 31		& 11	& \textbf{4.07}						&& 12		& 250	& \textbf{2.75}		& 52		& 6			\\
+						
+						poly4     && 5/1		& 6			& 3				& 50\%			&& 2$\times$2			& 2$\times$2					&& 24		& 12	& \textbf{2.22}						&& 7		& 312	& \textbf{1.87}		& 36		& 3			\\
+						
+						atax      && 12/3		& 60		& 36			& 40\%			&& ---					& 6$\times$6					&& 72		& 58	& \textbf{18.0}						&& 13		& 263	& \textbf{15.8}		& 78		& 18		\\
+						
+						bicg      && 15/6		& 30		& 18			& 40\%			&& ---					& 6$\times$6					&& 46	 	& 32	& \textbf{9.0}						&& 7 	 	& 270	& \textbf{8.1} 		& 91 		& 18		\\
+						
+						trmm      && 18/9		& 54		& 36			& 33\%			&& ---					& 7$\times$7					&& 58		& 30	& \textbf{16.2}						&& 8 		& 222	& \textbf{11.9} 		& 105		& 36		\\
+						
+						syrk      && 18/9		& 72		& 45			& 37\%			&& ---					& 7$\times$7					&& 41		& 19	& \textbf{21.6}						&& 10		& 250	& \textbf{18}		& 237		& 24		\\
+						\bottomrule
+					\end{tabular}
+					
+					
+				\end{center}
+			\end{minipage}
+		}
+	}
+\end{center}
