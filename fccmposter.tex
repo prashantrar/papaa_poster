@@ -1,0 +1,274 @@
+% --------------------------------------------------------------------------- %
+% Poster for the ECCS 2011 Conference about Elementary Dynamic Networks.      %
+% --------------------------------------------------------------------------- %
+% Created with Brian Amberg's LaTeX Poster Template. Please refer for the     %
+% attached README.md file for the details how to compile with `pdflatex`.     %
+% --------------------------------------------------------------------------- %
+% $LastChangedDate:: 2011-09-11 10:57:12 +0200 (V, 11 szept. 2011)          $ %
+% $LastChangedRevision:: 128                                                $ %
+% $LastChangedBy:: rlegendi                                                 $ %
+% $Id:: poster.tex 128 2011-09-11 08:57:12Z rlegendi                        $ %
+% --------------------------------------------------------------------------- %
+\documentclass[a0paper,portrait]{baposter}
+
+\usepackage{relsize}		% For \smaller
+\usepackage{url}			% For \url
+\usepackage{epstopdf}	% Included EPS files automatically converted to PDF to include with pdflatex
+\usepackage{cite}
+\usepackage{xcolor}
+
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{mdwlist}
+\usepackage{graphicx,stfloats}
+\usepackage{booktabs}
+
+\usepackage{siunitx}
+\sisetup{per=slash, load=abbr}
+
+\usepackage{calc}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{rotating}
+\usepackage{url}
+\usepackage{pgf,tikz}
+\usepackage{pgfplots, pgfplotstable}
+\usetikzlibrary{snakes,arrows,shapes}
+
+\pgfplotsset{compat=newest}
+
+%%% Global Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\graphicspath{{pix/}}	% Root directory of the pictures 
+\tracingstats=2			% Enabled LaTeX logging with conditionals
+
+%%% Color Definitions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\definecolor{bordercol}{RGB}{255,255,255}
+\definecolor{headercol1}{RGB}{186,215,230}
+\definecolor{headercol2}{RGB}{186,215,230}
+\definecolor{headerfontcol}{RGB}{0,0,0}
+\definecolor{boxcolor}{RGB}{255,255,255}
+%\definecolor{boxcolor}{RGB}{186,215,230}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Utility functions %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Save space in lists. Use this after the opening of the list %%%%%%%%%%%%%%%%
+\newcommand{\compresslist}{
+	\setlength{\itemsep}{1pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Document Start %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\typeout{Poster rendering started}
+
+%%% Setting Background Image %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\background{
+	\begin{tikzpicture}[remember picture,overlay]%
+	\draw (current page.north west)+(-2em,2em) node[anchor=north west]
+	{};
+	%{\includegraphics[height=1.1\textheight]{background}};
+	\end{tikzpicture}
+}
+
+%%% General Poster Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% Eye Catcher, Title, Authors and University Images %%%%%%%%%%%%%%%%%%%%%%
+\begin{poster}{
+	grid=false,
+	% Option is left on true though the eyecatcher is not used. The reason is
+	% that we have a bit nicer looking title and author formatting in the headercol
+	% this way
+	%eyecatcher=false, 
+	borderColor=bordercol,
+	headerColorOne=headercol1,
+	headerColorTwo=headercol2,
+	headerFontColor=headerfontcol,
+	% Only simple background color used, no shading, so boxColorTwo isn't necessary
+	boxColorOne=boxcolor,
+	headershape=roundedright,
+	headerfont=\large\sf\bf,
+	textborder=rectangle,
+	background=user,
+	headerborder=open,
+  boxshade=plain
+}
+%%% Logo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+	% The logos are compressed a bit into a simple box to make them smaller on the result
+	% (Wasn't able to find any bigger of them.)
+	\setlength\fboxsep{0pt}
+	\setlength\fboxrule{0pt}
+	\fbox{
+		\begin{minipage}{15em}
+			\includegraphics[width=15em]{logo}
+		\end{minipage}
+	}
+	
+}
+%%%% Eye Cacther %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%{
+%	Eye Catcher, empty if option eyecatcher=false - unused
+%}
+%%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\huge\sf\bf
+Hardware Acceleration Without The Use Of ~RTL
+}
+%%% Authors %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+	\vspace{0.3em} Prashant Ravi\\
+	{\smaller prashant014@ntu.edu.sg}
+}
+
+
+
+\headerbox{Background and Motivation}{name=problem,column=0,row=0}{
+Major issues in mainstream adoption of FPGAs:
+\begin{itemize}\itemsep1pt \parskip0pt
+\item Difficulty of accelerator design at low level
+\item Long compilation times (Place and route)
+\item Poor design productivity
+\end{itemize}
+One possible solution is to use FPGA Overlay:
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Accelerator design in a high level language
+	\item Fast compilation and development cycles	
+	\item Easy to use even by novice programmers
+	\item Puts the FPGA in the hands of software developers.	
+\end{itemize}
+Another solution is to use novel high level synthesis tools:
+\begin{itemize}\itemsep1pt \parskip0pt
+\item HLS tools to generate C to RTL, eg:Vivado HLS, SDSoC
+\item OpenCL to hardware design synthesis eg:AOCL, SDAccel
+\end{itemize}
+}
+
+
+
+\headerbox{Contributions}{name=scgra,column=0,below=problem}{
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Analysis of Overlay architectures like Vectorblox MXP and Altera OpenCL SDK as alternatives to pure RTL design flow. Highlighting the ease of use and fast learning curves of these methods.
+	\item Benchmarking and comparison of timing performance as well as operations per cycle for the Vectorblox MXP processor and the Altera OpenCL Implementation with arm CPU implementation.
+\end{itemize}
+
+
+}
+
+
+
+\headerbox{Observations}{name=analysis, column=0,below=scgra}{
+The Vectorblox MXP soft vector processor:
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Extremely short learning curve
+	\item The Vectorblox MXP C/C++ api is extremely easy to use.
+	\item Full control of DMA and execution to programmer.
+	\item Compilation and debugging time equal to that of traditional C/C++ debugging.
+\end{itemize}
+The Altera OpenCL SDK:
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Minimal modification of traditional OpenCL code required.
+	\item kernel optimizations like vectorization, hardware replication for parallelism.
+	\item Dynamic re-programming of FPGA at runtime with totally new kernel.
+	\item Host code portability across all devices. 
+\end{itemize}	
+	
+
+}
+
+
+
+\headerbox{Conclusions and Future Work}{name=conclusion,column=0,below=analysis,above=bottom}{
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item More popularity of overlays and high level synthesis tools.
+	\item Place and route effeciency improvements in OpenCL to hardware.
+	\item Overall generated hardware effeciency improvment.
+	\item More awareness in the software world and amongst software developers.
+\end{itemize}
+} 
+
+
+
+\headerbox{The Vectorblox MXP Processor}{name=designmethod,column=1,row=0}{ 
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Has a number of vector lanes containing an ALU in each lane.
+	\item Parallel processing on multiple vector input elements.
+	\item Extremely good for integer operations, lacks floating point.
+	\item Customizable vector lanes and option to add custom instructions.	
+\end{itemize}
+%\vspace{-0.2em}
+\setlength\fboxsep{0pt}
+\setlength\fboxrule{0pt}
+\begin{center}
+\fcolorbox{white}{white!100}{
+    \fbox{
+        \begin{minipage}{19.4em}
+        \begin{center}   
+        \includegraphics[width=15em]{mxpflow}   	
+		\includegraphics[width=15em]{vectorlane}
+        \end{center}       	
+        \end{minipage}
+    }
+}
+\end{center}
+}
+
+
+
+\headerbox{DE0-NANO-SoC with OpenCL}{name=functionalunit,column=2,row=0}{
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Creation of a semi-customized pipelined datapath using OpenCL Kernels. 
+	\item Full control of hardware replication at the kernel level with loop unrolling.
+	\item Functional C emulator for functional verification wihout generating hardware.
+	\item Special AOCL optimizations for floating point to reduce area.
+	\item Dedicated AOCL memory channels for data transfer to and from accelerator.	
+\end{itemize}	
+	%\vspace{-0.2em}
+	\setlength\fboxsep{0pt}
+	\setlength\fboxrule{0pt}
+	\begin{center}
+		\fcolorbox{white}{white!100}{
+			\fbox{
+				\begin{minipage}{19.4em}
+					\begin{center}   
+						\includegraphics[width=10em]{aoclflow}
+					\end{center}       	
+				\end{minipage}
+			}
+		}
+	\end{center}	
+}
+
+\headerbox{Quick Easy Mapping of Compute Kernels}{name=setup,span=2,column=1,below=functionalunit}{
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Utilization of C Api very straightforward in case of Vectorblox.
+	\item Translation of C code to OpenCL and VBX code fairly straightforward
+	\item Placement and Routing required in case of AOCL, and only compilation in case of vectorblox.
+\end{itemize}	
+\input{dfgs}
+}
+
+
+
+\headerbox{Experimental Evaluation}{name=experiment1,span=2,column=1,below=setup,above=bottom}{
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item 12-Tap FIR filter kernel was executed on vectorblox, ARM CPU on Zedboard and on the Cyclone V FPGA with AOCL and the timing performance was compared.
+	\item The Vectorblox and AOCL implementations ran faster than the ARM but when comapred to AOCL, Vectorblox performed much faster. 
+	\end{itemize}
+\vspace{-2em}	
+\input{result}
+\vspace{-2em}	
+\begin{itemize}\itemsep1pt \parskip0pt
+	\item Both Vectorblox and AOCL Implementations perform better than the Arm CPU.
+	\item Overall The Vectorblox performs better than the AOCL Implementation.
+	\item Simple acceleration methods like this will give any novice software engineer the power to accelerate his code on FPGA's within record time.
+\end{itemize}	
+}
+
+
+\end{poster}
+\end{document}
