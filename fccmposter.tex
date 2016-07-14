@@ -193,13 +193,12 @@ The Altera OpenCL SDK:
 
 
 
-\headerbox{Efficient Overlay Architecture}{name=designmethod,column=1,row=0}{
-2D array of tiles: 
+\headerbox{The Vectorblox MXP Processor}{name=designmethod,column=1,row=0}{ 
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Programmable functional unit (FU) and routing resources in each tile
-	\item Functional units interconnected via an island-style routing network
-	\item Coarse grained switch boxes, connection boxes and routing channels as programmable routing resources
-	\item Customizable channel width (CW), number of tracks in a routing channel%, for varying routability requirements% but at a higher area cost.	
+	\item Has a number of vector lanes containing an ALU in each lane.
+	\item Parallel processing on multiple vector input elements.
+	\item Extremely good for integer operations, lacks floating point.
+	\item Customizable vector lanes and option to add custom instructions.	
 \end{itemize}
 %\vspace{-0.2em}
 \setlength\fboxsep{0pt}
@@ -209,8 +208,8 @@ The Altera OpenCL SDK:
     \fbox{
         \begin{minipage}{19.4em}
         \begin{center}   
-        \includegraphics[width=9.5em]{arch}   	
-		\includegraphics[width=9.5em]{tile_new}
+        \includegraphics[width=15em]{mxpflow}   	
+		\includegraphics[width=15em]{vectorlane}
         \end{center}       	
         \end{minipage}
     }
@@ -220,14 +219,13 @@ The Altera OpenCL SDK:
 
 
 
-\headerbox{DSP Block Based Functional Unit}{name=functionalunit,column=2,row=0}{
+\headerbox{DE0-NANO-SoC with OpenCL}{name=functionalunit,column=2,row=0}{
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Fully pipelined DSP48E1 as a programmable processing element (PE) 
-	\item Achievable frequency near theoretical limits for providing high throughput
-	\item A pre-adder, a multiplier and an ALU inside the functional unit
-	\item Can support upto 3 operations 
-	\item MUX based reordering logic to handle logical inequivalence at the PE inputs
-	\item SRL based variable-length shift registers for balancing pipeline latencies	
+	\item Creation of a semi-customized pipelined datapath using OpenCL Kernels. 
+	\item Full control of hardware replication at the kernel level with loop unrolling.
+	\item Functional C emulator for functional verification wihout generating hardware.
+	\item Special AOCL optimizations for floating point to reduce area.
+	\item Dedicated AOCL memory channels for data transfer to and from accelerator.	
 \end{itemize}	
 	%\vspace{-0.2em}
 	\setlength\fboxsep{0pt}
@@ -237,7 +235,7 @@ The Altera OpenCL SDK:
 			\fbox{
 				\begin{minipage}{19.4em}
 					\begin{center}   
-						\includegraphics[width=19.4em]{fu_new}
+						\includegraphics[width=10em]{aoclflow}
 					\end{center}       	
 				\end{minipage}
 			}
@@ -245,12 +243,11 @@ The Altera OpenCL SDK:
 	\end{center}	
 }
 
-\headerbox{Rapid, Vendor-Independent, Automated Mapping of Compute Kernels}{name=setup,span=2,column=1,below=functionalunit}{
+\headerbox{Quick Easy Mapping of Compute Kernels}{name=setup,span=2,column=1,below=functionalunit}{
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item C to DFG Transformation: DFG generation from a C description of the compute kernel
-	\item DSP48E1 Aware Mapping: Compute node merging based on the capability of the DSP block
-	\item Placement and Routing of FU Netlist: Using VPR for mapping nodes in the graph to the DSP blocks, and edges onto the coarse grained tracks
-	\item Latency Balancing: Parsing VPR output files and generating a routing resource graph to determine the latency imbalance at each node and hence the required delays at the FU inputs
+	\item Utilization of C Api very straightforward in case of Vectorblox.
+	\item Translation of C code to OpenCL and VBX code fairly straightforward
+	\item Placement and Routing required in case of AOCL, and only compilation in case of vectorblox.
 \end{itemize}	
 \input{dfgs}
 }
@@ -259,8 +256,8 @@ The Altera OpenCL SDK:
 
 \headerbox{Experimental Evaluation}{name=experiment1,span=2,column=1,below=setup,above=bottom}{
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Two example overlays on Zynq device to execute the benchmark set: a 5$\times$5 Overlay-I with CW=2 operating at 370 MHz and a 7$\times$7 Overlay-II with CW=4 operating at 300 MHz
-	\item RTL generation of benchmarks using Vivado HLS for performance (throughput) comparison 
+	\item 12-Tap FIR filter kernel was executed on vectorblox, ARM CPU on Zedboard and on the Cyclone V FPGA with AOCL and the timing performance was compared.
+	\item The Vectorblox and AOCL implementations ran faster than the ARM but when comapred to AOCL, Vectorblox performed much faster. 
 	\end{itemize}
 \vspace{-2em}	
 \input{result}
