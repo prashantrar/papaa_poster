@@ -1,17 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.6.15)  16 JUL 2016 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.2.6)  16 JUL 2016 20:00
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**papaa_poster.tex
-(./papaa_poster.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(./baposter.cls
+**./papaa_poster.tex
+(papaa_poster.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+(baposter.cls
 Document Class: baposter 2011/11/26 v2.0 baposter class
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cl
+s"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -53,44 +54,56 @@ baposter: Reinhold Kainhofer, 2011 | http://reinhold.kainhofer.com/
 \baposter@titleimage@title=\box28
 \baposter@titleimage@right=\box29
 Use Packages
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval
+.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyv
+al.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvut
+ils.tex"
 \XKV@toks=\toks14
 \XKV@tempa@toks=\toks15
-\XKV@depth=\count87
-File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/keyval.tex)))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyva
+l.tex"))
+\XKV@depth=\count87
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count88
 \calc@Bcount=\count89
 \calc@Adimen=\dimen103
 \calc@Bdimen=\dimen104
 \calc@Askip=\skip63
 \calc@Bskip=\skip64
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count90
 \calc@Cskip=\skip65
 )
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xcolor\xcolor.s
+ty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\color.
+cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pdftex-def\pdft
+ex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count91
@@ -105,300 +118,386 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/share/texmf/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\frontendlay
+er\tikz.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\
+pgf.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\p
+gfrcs.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfutil-common.tex"
 \pgfutil@everybye=\toks16
-)
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@tempdima=\dimen105
+\pgfutil@tempdimb=\dimen106
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfutil-common-lists.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfutil-latex.def"
 \pgfutil@abb=\box30
 
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ms\everyshi.sty
+"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
 ))
-Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
 
-(/usr/share/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\basiclayer\
+pgfcore.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\graphi
+cs.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 )
-\Gin@req@height=\dimen105
-\Gin@req@width=\dimen106
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
 )
-(/usr/share/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\systemlayer
+\pgfsys.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks17
 \pgfkeys@temptoks=\toks18
 
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfkeysfiltered.code.tex"
 \pgfkeys@tmptoks=\toks19
 ))
-\pgf@x=\dimen107
-\pgf@y=\dimen108
-\pgf@xa=\dimen109
-\pgf@ya=\dimen110
-\pgf@xb=\dimen111
-\pgf@yb=\dimen112
-\pgf@xc=\dimen113
-\pgf@yc=\dimen114
+\pgf@x=\dimen109
+\pgf@y=\dimen110
+\pgf@xa=\dimen111
+\pgf@ya=\dimen112
+\pgf@xb=\dimen113
+\pgf@yb=\dimen114
+\pgf@xc=\dimen115
+\pgf@yc=\dimen116
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
 \c@pgf@counta=\count92
 \c@pgf@countb=\count93
 \c@pgf@countc=\count94
 \c@pgf@countd=\count95
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgf.cfg"
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
-Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 900.
+Driver file for pgf: pgfsys-pdftex.def
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )))
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 \pgfsyssoftpath@smallbuffer@items=\count96
 \pgfsyssoftpath@bigbuffer@items=\count97
 )
-(/usr/share/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\systemlay
+er\pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 
-(/usr/share/texmf/tex/generic/pgf/math/pgfmath.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen115
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+ath.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athcalc.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athutil.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athparser.code.tex"
+\pgfmath@dimen=\dimen117
 \pgfmath@count=\count98
 \pgfmath@box=\box31
-\pgfmath@toks=\toks20
-\pgfmath@stack@operand=\toks21
-\pgfmath@stack@operation=\toks22
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
 )
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)))
-(/usr/share/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.basic.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.trigonometric.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.random.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.comparison.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.base.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.round.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.misc.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfunctions.integerarithmetics.code.tex")))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+athfloat.code.tex"
 \c@pgfmathroundto@lastzeros=\count99
 ))
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen116
-\pgf@picmaxx=\dimen117
-\pgf@picminy=\dimen118
-\pgf@picmaxy=\dimen119
-\pgf@pathminx=\dimen120
-\pgf@pathmaxx=\dimen121
-\pgf@pathminy=\dimen122
-\pgf@pathmaxy=\dimen123
-\pgf@xx=\dimen124
-\pgf@xy=\dimen125
-\pgf@yx=\dimen126
-\pgf@yy=\dimen127
-\pgf@zx=\dimen128
-\pgf@zy=\dimen129
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen118
+\pgf@picmaxx=\dimen119
+\pgf@picminy=\dimen120
+\pgf@picmaxy=\dimen121
+\pgf@pathminx=\dimen122
+\pgf@pathmaxx=\dimen123
+\pgf@pathminy=\dimen124
+\pgf@pathmaxy=\dimen125
+\pgf@xx=\dimen126
+\pgf@xy=\dimen127
+\pgf@yx=\dimen128
+\pgf@yy=\dimen129
+\pgf@zx=\dimen130
+\pgf@zy=\dimen131
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen130
-\pgf@path@lasty=\dimen131
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen132
+\pgf@path@lasty=\dimen133
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen132
-\pgf@shorten@start@additional=\dimen133
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen134
+\pgf@shorten@start@additional=\dimen135
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box32
 \pgf@hbox=\box33
 \pgf@layerbox@main=\box34
 \pgf@picture@serial@count=\count100
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen134
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen136
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen135
-\pgf@pt@y=\dimen136
-\pgf@pt@temp=\dimen137
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen137
+\pgf@pt@y=\dimen138
+\pgf@pt@temp=\dimen139
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorequick.code.tex"
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreobjects.code.tex"
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen140
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen138
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen141
 \pgf@sys@shading@range@num=\count101
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box35
 ))
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
 )
-(/usr/share/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\basiclaye
+r\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\p
+gfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
 \pgfnodeparttextbox=\box36
 )
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\p
+gfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 )
-(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen139
-\pgf@nodesepend=\dimen140
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibili
+ty\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen142
+\pgf@nodesepend=\dimen143
 )
-(/usr/share/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\compatibili
+ty\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 ))
-(/usr/share/texmf/tex/latex/pgf/utilities/pgffor.sty
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfkeys.sty
-(/usr/share/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
-(/usr/share/texmf/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen141
-\pgffor@skip=\dimen142
-\pgffor@stack=\toks23
-\pgffor@toks=\toks24
-))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\p
+gffor.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\p
+gfkeys.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgfkeys.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\math\pgfmat
+h.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+ath.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\utilities
+\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\math\pgfm
+ath.code.tex")
+\pgffor@iter=\dimen144
+\pgffor@skip=\dimen145
+\pgffor@stack=\toks26
+\pgffor@toks=\toks27
+))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\tikz.code.tex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \pgf@plot@mark@count=\count102
-\pgfplotmarksize=\dimen143
+\pgfplotmarksize=\dimen146
 )
-\tikz@lastx=\dimen144
-\tikz@lasty=\dimen145
-\tikz@lastxsaved=\dimen146
-\tikz@lastysaved=\dimen147
-\tikzleveldistance=\dimen148
-\tikzsiblingdistance=\dimen149
+\tikz@lastx=\dimen147
+\tikz@lasty=\dimen148
+\tikz@lastxsaved=\dimen149
+\tikz@lastysaved=\dimen150
+\tikzleveldistance=\dimen151
+\tikzsiblingdistance=\dimen152
 \tikz@figbox=\box37
-\tikz@tempbox=\box38
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
 \tikztreelevel=\count103
 \tikznumberofchildren=\count104
 \tikznumberofcurrentchild=\count105
 \tikz@fig@count=\count106
 
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\p
+gfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 \pgfmatrixcurrentrow=\count107
 \pgfmatrixcurrentcolumn=\count108
 \pgf@matrix@numberofcolumns=\count109
 )
 \tikz@expandcount=\count110
 
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopat
-hs.code.tex
-File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
-))) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
-ations.code.tex
-(/usr/share/texmf/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen150
-\pgfdecoratedremainingdistance=\dimen151
-\pgfdecoratedinputsegmentcompleteddistance=\dimen152
-\pgfdecoratedinputsegmentremainingdistance=\dimen153
-\pgf@decorate@distancetomove=\dimen154
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarydecorations.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\modules\p
+gfmoduledecorations.code.tex"
+\pgfdecoratedcompleteddistance=\dimen153
+\pgfdecoratedremainingdistance=\dimen154
+\pgfdecoratedinputsegmentcompleteddistance=\dimen155
+\pgfdecoratedinputsegmentremainingdistance=\dimen156
+\pgf@decorate@distancetomove=\dimen157
 \pgf@decorate@repeatstate=\count111
-\pgfdecorationsegmentamplitude=\dimen155
-\pgfdecorationsegmentlength=\dimen156
+\pgfdecorationsegmentamplitude=\dimen158
+\pgfdecorationsegmentlength=\dimen159
 )
-\tikz@lib@dec@box=\box39
+\tikz@lib@dec@box=\box41
 )
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadin
-gs.code.tex
-File: tikzlibraryfadings.code.tex 2009/11/15 v2.10 (rcs-revision 1.2)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryfadings.code.tex"
+File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-File: pgflibraryfadings.code.tex 2008/02/07 v2.10 (rcs-revision 1.3)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\pgflibraryfadings.code.tex"
+File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarysnake
-s.code.tex
-File: tikzlibrarysnakes.code.tex 2008/02/05 v2.10 (rcs-revision 1.6)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarysnakes.code.tex"
+File: tikzlibrarysnakes.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.7)
 
 
-Package tikz Warning: Snakes have been superseded by decorations. Please use th
-e decoration libraries instead of the snakes library on input line 14.
+Package pgf Warning: Snakes have been superseded by decorations. Please use the
+ decoration libraries instead of the snakes library on input line 14.
 
 
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
-ations.pathmorphing.code.tex
-(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
-athmorphing.code.tex))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
-ations.pathreplacing.code.tex
-(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.p
-athreplacing.code.tex))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecor
-ations.shapes.code.tex
-(/usr/share/texmf/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.s
-hapes.code.tex)))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.
-code.tex
-File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\decorations\pgflibrarydecorations.pathmorphing.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\decorations\pgflibrarydecorations.pathreplacing.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarydecorations.shapes.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\decorations\pgflibrarydecorations.shapes.code.tex")))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 )
 \baposter@movebody=\skip66
 \baposter@basemarginright=\skip67
@@ -408,76 +507,93 @@ Paperwidth=2392.87677pt
 Paperheight=3383.03267pt
 BasePaperwidth=698.73782pt
 BasePaperheight=987.87073pt
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvt
+ex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxet
+ex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count112
 \Gm@cntv=\count113
 \c@Gm@tempcnt=\count114
-\Gm@bindingoffset=\dimen157
-\Gm@wd@mp=\dimen158
-\Gm@odd@mp=\dimen159
-\Gm@even@mp=\dimen160
-\Gm@layoutwidth=\dimen161
-\Gm@layoutheight=\dimen162
-\Gm@layouthoffset=\dimen163
-\Gm@layoutvoffset=\dimen164
-\Gm@dimlist=\toks25
-)
-(/usr/share/texmf/tex/latex/pgf/utilities/pgfpages.sty
-Package: pgfpages 2004/11/05 ver 0.01
+\Gm@bindingoffset=\dimen160
+\Gm@wd@mp=\dimen161
+\Gm@odd@mp=\dimen162
+\Gm@even@mp=\dimen163
+\Gm@layoutwidth=\dimen164
+\Gm@layoutheight=\dimen165
+\Gm@layouthoffset=\dimen166
+\Gm@layoutvoffset=\dimen167
+\Gm@dimlist=\toks28
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geomet
+ry.cfg"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgf\utilities\p
+gfpages.sty"
+Package: pgfpages 2011/01/05 ver 0.02
 \pgf@logicalpages=\count115
 \pgf@firstshipout=\count116
 \pgf@lastshipout=\count117
 \pgf@currentshipout=\count118
 \pgf@cpn=\count119
 \pgf@shipoutnextto=\count120
-\pgfphysicalheight=\dimen165
-\pgfphysicalwidth=\dimen166
-\pgfpages@shipoutbox=\box40
+\pgfphysicalheight=\dimen168
+\pgfphysicalwidth=\dimen169
+\pgfpages@shipoutbox=\box42
 )
-\pgfpages@box@1=\box41
+\pgfpages@box@1=\box43
 )
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\relsize
+.sty"
+Package: relsize 2003/07/04 ver 3.1
 )
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df.sty"
 Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df-base.sty"
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
+.sty"
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvde
+finekeys.sty"
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
+ons.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvse
+tkeys.sty"
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etex
+cmds.sty"
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflu
+atex.sty"
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -486,7 +602,8 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
+excmds.sty"
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -498,37 +615,40 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\cite\cite.sty"
 LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 373.
-Package: cite 2010/09/10  v 5.3
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
 )
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspa
+ce.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath
+.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip69
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext
+.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.
+sty"
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks26
-\ex@=\dimen167
+\@emptytoks=\toks29
+\ex@=\dimen170
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.
+sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen168
+\pmbraise@=\dimen171
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.
+sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count121
@@ -541,9 +661,9 @@ LaTeX Info: Redefining \overline on input line 306.
 LaTeX Info: Redefining \ldots on input line 378.
 LaTeX Info: Redefining \dots on input line 381.
 LaTeX Info: Redefining \cdots on input line 466.
-\Mathstrutbox@=\box42
-\strutbox@=\box43
-\big@size=\dimen169
+\Mathstrutbox@=\box44
+\strutbox@=\box45
+\big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count126
@@ -551,122 +671,98 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \dotsspace@=\muskip11
 \c@parentequation=\count128
 \dspbrk@lvl=\count129
-\tag@help=\toks27
+\tag@help=\toks30
 \row@=\count130
 \column@=\count131
 \maxfields@=\count132
-\andhelp@=\toks28
-\eqnshift@=\dimen170
-\alignsep@=\dimen171
-\tagshift@=\dimen172
-\tagwidth@=\dimen173
-\totwidth@=\dimen174
-\lineht@=\dimen175
-\@envbody=\toks29
+\andhelp@=\toks31
+\eqnshift@=\dimen173
+\alignsep@=\dimen174
+\tagshift@=\dimen175
+\tagwidth@=\dimen176
+\totwidth@=\dimen177
+\lineht@=\dimen178
+\@envbody=\toks32
 \multlinegap=\skip70
 \multlinetaggap=\skip71
-\mathdisplay@stack=\toks30
+\mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mdwtools/mdwlist.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\mdwtools\mdwlis
+t.sty"
 Package: mdwlist 1996/05/02 1.1 Various list-related things
 )
-(/usr/share/texlive/texmf-dist/tex/latex/sttools/stfloats.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sttools\stfloat
+s.sty"
 Package: stfloats 2012/05/29 v1.1 Improve float mechanism and baselineskip sett
 ings
 \@dblbotnum=\count133
 \c@dblbotnumber=\count134
 )
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\booktabs\bookta
+bs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen176
-\lightrulewidth=\dimen177
-\cmidrulewidth=\dimen178
-\belowrulesep=\dimen179
-\belowbottomsep=\dimen180
-\aboverulesep=\dimen181
-\abovetopsep=\dimen182
-\cmidrulesep=\dimen183
-\cmidrulekern=\dimen184
-\defaultaddspace=\dimen185
+\heavyrulewidth=\dimen179
+\lightrulewidth=\dimen180
+\cmidrulewidth=\dimen181
+\belowrulesep=\dimen182
+\belowbottomsep=\dimen183
+\aboverulesep=\dimen184
+\abovetopsep=\dimen185
+\cmidrulesep=\dimen186
+\cmidrulekern=\dimen187
+\defaultaddspace=\dimen188
 \@cmidla=\count135
 \@cmidlb=\count136
-\@aboverulesep=\dimen186
-\@belowrulesep=\dimen187
+\@aboverulesep=\dimen189
+\@belowrulesep=\dimen190
 \@thisruleclass=\count137
 \@lastruleclass=\count138
-\@thisrulewidth=\dimen188
+\@thisrulewidth=\dimen191
 )
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3names.sty
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3bootstrap.sty
-Package: l3bootstrap 2014/01/04 v4640 L3 Experimental bootstrap code
-)
-Package: l3names 2014/01/04 v4640 L3 Namespace for primitives
-)
-(/usr/share/texlive/texmf-dist/tex/latex/etex-pkg/etex.sty
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count139
-)
-Package: expl3 2014/01/07 v4646 L3 Experimental code bundle wrapper
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx
+.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3.
+sty"
+Package: expl3 2016/01/19 v6377 L3 programming layer (loader) 
 
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3basics.sty
-Package: l3basics 2014/01/04 v4642 L3 Basic definitions
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3expan.sty
-Package: l3expan 2014/01/04 v4642 L3 Argument expansion
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3tl.sty
-Package: l3tl 2013/12/27 v4625 L3 Token lists
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3seq.sty
-Package: l3seq 2013/12/14 v4623 L3 Sequences and stacks
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3int.sty
-Package: l3int 2013/08/02 v4583 L3 Integers
-\c_max_int=\count140
-\l_tmpa_int=\count141
-\l_tmpb_int=\count142
-\g_tmpa_int=\count143
-\g_tmpb_int=\count144
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3quark.sty
-Package: l3quark 2013/12/14 v4623 L3 Quarks
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prg.sty
-Package: l3prg 2014/01/04 v4642 L3 Control structures
-\g__prg_map_int=\count145
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3clist.sty
-Package: l3clist 2013/07/28 v4581 L3 Comma separated lists
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3token.sty
-Package: l3token 2013/08/25 v4587 L3 Experimental token manipulation
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3prop.sty
-Package: l3prop 2013/12/14 v4623 L3 Property lists
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3msg.sty
-Package: l3msg 2013/07/28 v4581 L3 Messages
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3file.sty
-Package: l3file 2013/10/13 v4596 L3 File and I/O operations
-\l_iow_line_count_int=\count146
-\l__iow_target_count_int=\count147
-\l__iow_current_line_int=\count148
-\l__iow_current_word_int=\count149
-\l__iow_current_indentation_int=\count150
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3skip.sty
-Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
-\c_zero_dim=\dimen189
-\c_max_dim=\dimen190
-\l_tmpa_dim=\dimen191
-\l_tmpb_dim=\dimen192
-\g_tmpa_dim=\dimen193
-\g_tmpb_dim=\dimen194
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\expl3-
+code.tex"
+Package: expl3 2016/01/19 v6377 L3 programming layer (code)
+L3 Module: l3bootstrap 2016/01/01 v6339 L3 Bootstrap code
+L3 Module: l3names 2015/12/21 v6328 L3 Namespace for primitives
+L3 Module: l3basics 2015/11/22 v6315 L3 Basic definitions
+L3 Module: l3expan 2015/09/10 v5983 L3 Argument expansion
+L3 Module: l3tl 2015/09/29 v6121 L3 Token lists
+L3 Module: l3str 2016/01/03 v6357 L3 Strings
+L3 Module: l3seq 2015/08/05 v5777 L3 Sequences and stacks
+L3 Module: l3int 2016/01/05 v6366 L3 Integers
+\c_max_int=\count139
+\l_tmpa_int=\count140
+\l_tmpb_int=\count141
+\g_tmpa_int=\count142
+\g_tmpb_int=\count143
+L3 Module: l3quark 2015/08/17 v5855 L3 Quarks
+L3 Module: l3prg 2015/11/01 v6216 L3 Control structures
+\g__prg_map_int=\count144
+L3 Module: l3clist 2015/09/02 v5901 L3 Comma separated lists
+L3 Module: l3token 2015/11/11 v6249 L3 Experimental token manipulation
+L3 Module: l3prop 2016/01/05 v6366 L3 Property lists
+L3 Module: l3msg 2015/09/28 v6113 L3 Messages
+L3 Module: l3file 2015/12/03 v6317 L3 File and I/O operations
+\l_iow_line_count_int=\count145
+\l__iow_target_count_int=\count146
+\l__iow_current_line_int=\count147
+\l__iow_current_word_int=\count148
+\l__iow_current_indentation_int=\count149
+L3 Module: l3skip 2016/01/05 v6366 L3 Dimensions and skips
+\c_zero_dim=\dimen192
+\c_max_dim=\dimen193
+\l_tmpa_dim=\dimen194
+\l_tmpb_dim=\dimen195
+\g_tmpa_dim=\dimen196
+\g_tmpb_dim=\dimen197
 \c_zero_skip=\skip72
 \c_max_skip=\skip73
 \l_tmpa_skip=\skip74
@@ -679,560 +775,533 @@ Package: l3skip 2013/07/28 v4581 L3 Dimensions and skips
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
+L3 Module: l3keys 2015/11/17 v6284 L3 Key-value interfaces
+\g__keyval_level_int=\count150
+\l_keys_choice_int=\count151
+L3 Module: l3fp 2015/08/25 v5890 L3 Floating points
+\c__fp_leading_shift_int=\count152
+\c__fp_middle_shift_int=\count153
+\c__fp_trailing_shift_int=\count154
+\c__fp_big_leading_shift_int=\count155
+\c__fp_big_middle_shift_int=\count156
+\c__fp_big_trailing_shift_int=\count157
+\c__fp_Bigg_leading_shift_int=\count158
+\c__fp_Bigg_middle_shift_int=\count159
+\c__fp_Bigg_trailing_shift_int=\count160
+L3 Module: l3box 2015/08/09 v5822 L3 Experimental boxes
+\c_empty_box=\box46
+\l_tmpa_box=\box47
+\l_tmpb_box=\box48
+\g_tmpa_box=\box49
+\g_tmpb_box=\box50
+L3 Module: l3coffins 2015/08/06 v5789 L3 Coffin code layer
+\l__coffin_internal_box=\box51
+\l__coffin_internal_dim=\dimen198
+\l__coffin_offset_x_dim=\dimen199
+\l__coffin_offset_y_dim=\dimen256
+\l__coffin_x_dim=\dimen257
+\l__coffin_y_dim=\dimen258
+\l__coffin_x_prime_dim=\dimen259
+\l__coffin_y_prime_dim=\dimen260
+\c_empty_coffin=\box52
+\l__coffin_aligned_coffin=\box53
+\l__coffin_aligned_internal_coffin=\box54
+\l_tmpa_coffin=\box55
+\l_tmpb_coffin=\box56
+\l__coffin_display_coffin=\box57
+\l__coffin_display_coord_coffin=\box58
+\l__coffin_display_pole_coffin=\box59
+\l__coffin_display_offset_dim=\dimen261
+\l__coffin_display_x_dim=\dimen262
+\l__coffin_display_y_dim=\dimen263
+L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
+L3 Module: l3sys 2015/09/25 v6087 L3 Experimental system/runtime functions
+L3 Module: l3candidates 2016/01/14 v6376 L3 Experimental additions to l3kernel
+\l__box_top_dim=\dimen264
+\l__box_bottom_dim=\dimen265
+\l__box_left_dim=\dimen266
+\l__box_right_dim=\dimen267
+\l__box_top_new_dim=\dimen268
+\l__box_bottom_new_dim=\dimen269
+\l__box_left_new_dim=\dimen270
+\l__box_right_new_dim=\dimen271
+\l__box_internal_box=\box60
+\l__coffin_bounding_shift_dim=\dimen272
+\l__coffin_left_corner_dim=\dimen273
+\l__coffin_right_corner_dim=\dimen274
+\l__coffin_bottom_corner_dim=\dimen275
+\l__coffin_top_corner_dim=\dimen276
+\l__coffin_scaled_total_height_dim=\dimen277
+\l__coffin_scaled_width_dim=\dimen278
+L3 Module: l3luatex 2015/11/11 v6250 L3 Experimental LuaTeX-specific functions
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3keys.sty
-Package: l3keys 2013/12/08 v4614 L3 Experimental key-value interfaces
-\g__keyval_level_int=\count151
-\l_keys_choice_int=\count152
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3fp.sty
-Package: l3fp 2014/01/04 v4642 L3 Floating points
-\c__fp_leading_shift_int=\count153
-\c__fp_middle_shift_int=\count154
-\c__fp_trailing_shift_int=\count155
-\c__fp_big_leading_shift_int=\count156
-\c__fp_big_middle_shift_int=\count157
-\c__fp_big_trailing_shift_int=\count158
-\c__fp_Bigg_leading_shift_int=\count159
-\c__fp_Bigg_middle_shift_int=\count160
-\c__fp_Bigg_trailing_shift_int=\count161
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3box.sty
-Package: l3box 2013/07/28 v4581 L3 Experimental boxes
-\c_empty_box=\box44
-\l_tmpa_box=\box45
-\l_tmpb_box=\box46
-\g_tmpa_box=\box47
-\g_tmpb_box=\box48
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3coffins.sty
-Package: l3coffins 2013/12/14 v4624 L3 Coffin code layer
-\l__coffin_internal_box=\box49
-\l__coffin_internal_dim=\dimen195
-\l__coffin_offset_x_dim=\dimen196
-\l__coffin_offset_y_dim=\dimen197
-\l__coffin_x_dim=\dimen198
-\l__coffin_y_dim=\dimen199
-\l__coffin_x_prime_dim=\dimen200
-\l__coffin_y_prime_dim=\dimen201
-\c_empty_coffin=\box50
-\l__coffin_aligned_coffin=\box51
-\l__coffin_aligned_internal_coffin=\box52
-\l_tmpa_coffin=\box53
-\l_tmpb_coffin=\box54
-\l__coffin_display_coffin=\box55
-\l__coffin_display_coord_coffin=\box56
-\l__coffin_display_pole_coffin=\box57
-Normal \dimen register pool exhausted, switching to extended pool.
-\l__coffin_display_offset_dim=\dimen256
-\l__coffin_display_x_dim=\dimen257
-\l__coffin_display_y_dim=\dimen258
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3color.sty
-Package: l3color 2012/08/29 v4156 L3 Experimental color support
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3luatex.sty
-Package: l3luatex 2013/07/28 v4581 L3 Experimental LuaTeX-specific functions
-\g__cctab_allocate_int=\count162
-\g__cctab_stack_int=\count163
-)
-(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3candidates.sty
-Package: l3candidates 2014/01/06 v4643 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen259
-\l__box_bottom_dim=\dimen260
-\l__box_left_dim=\dimen261
-\l__box_right_dim=\dimen262
-\l__box_top_new_dim=\dimen263
-\l__box_bottom_new_dim=\dimen264
-\l__box_left_new_dim=\dimen265
-\l__box_right_new_dim=\dimen266
-\l__box_internal_box=\box58
-\l__coffin_bounding_shift_dim=\dimen267
-\l__coffin_left_corner_dim=\dimen268
-\l__coffin_right_corner_dim=\dimen269
-\l__coffin_bottom_corner_dim=\dimen270
-\l__coffin_top_corner_dim=\dimen271
-\l__coffin_scaled_total_height_dim=\dimen272
-\l__coffin_scaled_width_dim=\dimen273
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3kernel\l3pdfm
+ode.def"
+File: l3pdfmode.def 2015/11/11 v6250 L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count161
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2013/12/31 v4634 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count164
-\l__xparse_m_args_int=\count165
-\l__xparse_mandatory_args_int=\count166
-\l__xparse_processor_int=\count167
-\l__xparse_v_nesting_int=\count168
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\xpar
+se\xparse.sty"
+Package: xparse 2016/01/19 v6377 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count162
+\l__xparse_m_args_int=\count163
+\l__xparse_mandatory_args_int=\count164
+\l__xparse_processor_int=\count165
+\l__xparse_v_nesting_int=\count166
 )
-Package: siunitx 2013/07/31 v2.5s A comprehensive (SI) units package
+Package: siunitx 2016/01/19 v2.6p A comprehensive (SI) units package
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen274
-\extrarowheight=\dimen275
-\NC@list=\toks31
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty
+"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen279
+\extrarowheight=\dimen280
+\NC@list=\toks34
 \extratabsurround=\skip78
 \backup@length=\skip79
 )
-(/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2013/12/31 v4634 LaTeX2e option processing using LaTeX3 keys
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3packages\l3ke
+ys2e\l3keys2e.sty"
+Package: l3keys2e 2016/01/19 v6377 LaTeX2e option processing using LaTeX3 keys
 )
-Variant \tl_if_blank:VTF already defined; not changing it on line 50
-\l__siunitx_tmp_box=\box59
-\l__siunitx_tmp_dim=\dimen276
-\l__siunitx_tmp_int=\count169
-Variant \prop_get:NVNT already defined; not changing it on line 371
-Variant \prop_get:NVNF already defined; not changing it on line 372
-Variant \prop_get:NVNTF already defined; not changing it on line 373
-\l__siunitx_number_mantissa_length_int=\count170
-\l__siunitx_number_uncert_length_int=\count171
-\l__siunitx_round_int=\count172
-\l__siunitx_process_decimal_int=\count173
-\l__siunitx_process_uncertainty_int=\count174
-\l__siunitx_process_fixed_int=\count175
-\l__siunitx_process_integer_min_int=\count176
-\l__siunitx_process_precision_int=\count177
-\l__siunitx_group_min_int=\count178
-\l__siunitx_angle_marker_box=\box60
-\l__siunitx_angle_unit_box=\box61
-\l__siunitx_angle_marker_dim=\dimen277
-\l__siunitx_angle_unit_dim=\dimen278
-\l__siunitx_unit_int=\count179
-\l__siunitx_unit_denominator_int=\count180
-\l__siunitx_unit_numerator_int=\count181
-\l__siunitx_unit_prefix_int=\count182
-\l__siunitx_unit_prefix_base_int=\count183
-\l__siunitx_unit_prefix_gram_int=\count184
-\l__siunitx_number_product_int=\count185
+\l__siunitx_tmp_box=\box61
+\l__siunitx_tmp_dim=\dimen281
+\l__siunitx_tmp_int=\count167
+\l__siunitx_number_mantissa_length_int=\count168
+\l__siunitx_number_uncert_length_int=\count169
+\l__siunitx_round_int=\count170
+\l__siunitx_process_decimal_int=\count171
+\l__siunitx_process_uncertainty_int=\count172
+\l__siunitx_process_fixed_int=\count173
+\l__siunitx_process_integer_min_int=\count174
+\l__siunitx_process_precision_int=\count175
+\l__siunitx_group_min_int=\count176
+\l__siunitx_angle_marker_box=\box62
+\l__siunitx_angle_unit_box=\box63
+\l__siunitx_angle_marker_dim=\dimen282
+\l__siunitx_angle_unit_dim=\dimen283
+\l__siunitx_unit_int=\count177
+\l__siunitx_unit_denominator_int=\count178
+\l__siunitx_unit_numerator_int=\count179
+\l__siunitx_unit_prefix_int=\count180
+\l__siunitx_unit_prefix_base_int=\count181
+\l__siunitx_unit_prefix_gram_int=\count182
+\l__siunitx_number_product_int=\count183
 \c__siunitx_one_fill_skip=\skip80
 \l__siunitx_table_unit_align_skip=\skip81
-\l__siunitx_table_exponent_dim=\dimen279
-\l__siunitx_table_integer_dim=\dimen280
-\l__siunitx_table_mantissa_dim=\dimen281
-\l__siunitx_table_marker_dim=\dimen282
-\l__siunitx_table_result_dim=\dimen283
-\l__siunitx_table_uncert_dim=\dimen284
-\l__siunitx_table_fill_pre_dim=\dimen285
-\l__siunitx_table_fill_post_dim=\dimen286
-\l__siunitx_table_fill_mid_dim=\dimen287
-\l__siunitx_table_pre_box=\box62
-\l__siunitx_table_post_box=\box63
-\l__siunitx_table_mantissa_box=\box64
-\l__siunitx_table_result_box=\box65
+\l__siunitx_table_exponent_dim=\dimen284
+\l__siunitx_table_integer_dim=\dimen285
+\l__siunitx_table_mantissa_dim=\dimen286
+\l__siunitx_table_marker_dim=\dimen287
+\l__siunitx_table_result_dim=\dimen288
+\l__siunitx_table_uncert_dim=\dimen289
+\l__siunitx_table_fill_pre_dim=\dimen290
+\l__siunitx_table_fill_post_dim=\dimen291
+\l__siunitx_table_fill_mid_dim=\dimen292
+\l__siunitx_table_pre_box=\box64
+\l__siunitx_table_post_box=\box65
+\l__siunitx_table_mantissa_box=\box66
+\l__siunitx_table_result_box=\box67
 \l__siunitx_table_number_align_skip=\skip82
 \l__siunitx_table_text_align_skip=\skip83
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareBinaryPrefix with arg. spec. 'mmm' on line
-. 7101.
+. Defining command \DeclareBinaryPrefix with sig. 'mmm' on line 7218.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareSIPostPower with arg. spec. 'mm' on line
-. 7104.
+. Defining command \DeclareSIPostPower with sig. 'mm' on line 7221.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareSIPrefix with arg. spec. 'mmm' on line
-. 7107.
+. Defining command \DeclareSIPrefix with sig. 'mmm' on line 7224.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareSIPrePower with arg. spec. 'mm' on line
-. 7110.
+. Defining command \DeclareSIPrePower with sig. 'mm' on line 7227.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareSIQualifier with arg. spec. 'mm' on line
-. 7113.
+. Defining command \DeclareSIQualifier with sig. 'mm' on line 7230.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareSIUnit with arg. spec. 'O{}mm' on line
-. 7116.
+. Defining command \DeclareSIUnit with sig. 'O{}mm' on line 7233.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \DeclareSIUnitWithOptions with arg. spec. 'mmm' on
-. line 7119.
+. Defining command \DeclareSIUnitWithOptions with sig. 'mmm' on line 7236.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ang with arg. spec. 'o>{\SplitArgument {2}{;}}m'
-. on line 7134.
+. Defining command \ang with sig. 'o>{\SplitArgument {2}{;}}m' on line 7251.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \num with arg. spec. 'om' on line 7142.
+. Defining command \num with sig. 'om' on line 7259.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \numlist with arg. spec. 'o>{\SplitList {;}}m' on
-. line 7150.
+. Defining command \numlist with sig. 'o>{\SplitList {;}}m' on line 7267.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \numrange with arg. spec. 'omm' on line 7158.
+. Defining command \numrange with sig. 'omm' on line 7275.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \SIlist with arg. spec. 'o>{\SplitList {;}}mm' on
-. line 7169.
+. Defining command \SIlist with sig. 'o>{\SplitList {;}}mm' on line 7286.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \SIrange with arg. spec. 'ommm' on line 7180.
+. Defining command \SIrange with sig. 'ommm' on line 7297.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \SI with arg. spec. 'omom' on line 7191.
+. Defining command \SI with sig. 'omom' on line 7308.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \sisetup with arg. spec. 'm' on line 7194.
+. Defining command \sisetup with sig. 'm' on line 7311.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tablenum with arg. spec. 'om' on line 7206.
+. Defining command \tablenum with sig. 'om' on line 7323.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \si with arg. spec. 'om' on line 7217.
+. Defining command \si with sig. 'om' on line 7334.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \__siunitx_bookmark_num:w with arg. spec. 'om' on
-. line 7262.
+. Defining command \__siunitx_bookmark_num:w with sig. 'om' on line 7381.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \__siunitx_bookmark_numrange:w with arg. spec.
-. 'omm' on line 7264.
+. Defining command \__siunitx_bookmark_numrange:w with sig. 'omm' on line
+. 7383.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \__siunitx_bookmark_SI:w with arg. spec. 'omom' on
-. line 7266.
+. Defining command \__siunitx_bookmark_SI:w with sig. 'omom' on line 7385.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \__siunitx_bookmark_SIlist:w with arg. spec. 'omm'
-. on line 7268.
+. Defining command \__siunitx_bookmark_SIlist:w with sig. 'omm' on line 7387.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \__siunitx_bookmark_SIrange:w with arg. spec.
-. 'ommm' on line 7270.
+. Defining command \__siunitx_bookmark_SIrange:w with sig. 'ommm' on line
+. 7389.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \__siunitx_bookmark_si:w with arg. spec. 'om' on
-. line 7271.
+. Defining command \__siunitx_bookmark_si:w with sig. 'om' on line 7390.
 .................................................
 \g__file_internal_ior=\read2
 
-(/usr/share/texmf/tex/latex/beamer/base/translator/translator.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\base\tra
+nslator\translator.sty"
 Package: translator 2010/06/12 ver 1.10
 
-(/usr/share/texmf/tex/latex/beamer/base/translator/translator-language-mappings
-.tex)))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\base\tra
+nslator\translator-language-mappings.tex")))
 *************************************************
 * siunitx warning: "version-1-option"
 * 
 * Version 1 option 'per' detected.
 *************************************************
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/config/siunitx-version-1.cfg
-File: siunitx-version-1.cfg 2013/07/31 v2.5s siunitx: Version 1 settings
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \newpower with arg. spec. 'omm' on line 636.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \renewpower with arg. spec. 'omm' on line 641.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \providepower with arg. spec. 'omm' on line 646.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \newprefix with arg. spec. 'ommm' on line 651.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \renewprefix with arg. spec. 'ommm' on line 656.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \provideprefix with arg. spec. 'ommm' on line 661.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \newqualifier with arg. spec. 'mm' on line 664.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining document command \requiresiconfigs with arg. spec. 'm' on line 732.
-.................................................
-)
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx
+-version-1.cfg"
+File: siunitx-version-1.cfg 2016/01/19 v2.6p siunitx: Version 1 settings
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newpower with sig. 'omm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewpower with sig. 'omm' on line 638.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \providepower with sig. 'omm' on line 643.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newprefix with sig. 'ommm' on line 648.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewprefix with sig. 'ommm' on line 653.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \provideprefix with sig. 'ommm' on line 658.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newqualifier with sig. 'mm' on line 661.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \requiresiconfigs with sig. 'm' on line 729.
+.................................................
+)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+.sty"
+Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption
+3.sty"
+Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen288
-\captionmargin@=\dimen289
-\captionwidth=\dimen290
-\caption@tempdima=\dimen291
-\caption@indent=\dimen292
-\caption@parindent=\dimen293
-\caption@hangindent=\dimen294
+\captionmargin=\dimen293
+\captionmargin@=\dimen294
+\captionwidth=\dimen295
+\caption@tempdima=\dimen296
+\caption@indent=\dimen297
+\caption@parindent=\dimen298
+\caption@hangindent=\dimen299
 )
-\c@ContinuedFloat=\count186
+\c@ContinuedFloat=\count184
 )
-(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\rotating\rotati
+ng.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
-\c@r@tfl@t=\count187
+\c@r@tfl@t=\count185
 \rotFPtop=\skip84
 \rotFPbot=\skip85
-\rot@float@box=\box66
-\rot@mess@toks=\toks32
+\rot@float@box=\box68
+\rot@mess@toks=\toks35
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2013/10/03 v1.9 Data Visualization (1.9)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfplo
+ts.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lots.revision.tex")
+Package: pgfplots 2016/01/06 v1.13 Data Visualization (1.13)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks33
-\t@pgfplots@tokb=\toks34
-\t@pgfplots@tokc=\toks35
-\pgfplots@tmpa=\dimen295
-\c@pgfplots@coordindex=\count188
-\c@pgfplots@scanlineindex=\count189
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lots.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lotscore.code.tex"
+\t@pgfplots@toka=\toks36
+\t@pgfplots@tokb=\toks37
+\t@pgfplots@tokc=\toks38
+\pgfplots@tmpa=\dimen300
+\c@pgfplots@coordindex=\count186
+\c@pgfplots@scanlineindex=\count187
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
-.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
-ex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_loader.code.tex
-Package pgfplots: loading complementary code for your PGF version...
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\
+pgfplotssysgeneric.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs
+\pgfplotslibrary.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldp
+gfcompatib\pgfplotsoldpgfsupp_loader.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\pgflibraryfpu.code.tex")
+Package pgfplots: loading complementary arithmetics for your pgf version...
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_misc.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks36
-\pgfkeys@temptoks=\toks37
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks38
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldp
+gfcompatib\pgfplotsoldpgfsupp_pgflibraryfpu.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\oldp
+gfcompatib\pgfplotsoldpgfsupp_pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count188
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count190
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util
+\pgfplotsutil.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\list
+structure\pgfplotsliststructure.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\list
+structure\pgfplotsliststructureext.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\list
+structure\pgfplotsarray.code.tex"
+\c@pgfplotsarray@tmp=\count189
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgflibraryplothandlers.code.tex
-File: pgflibraryplothandlers.code.tex 2012/09/11 v2.10 (rcs-revision 1.17)
-\pgf@plot@mark@count=\count191
-\pgfplotmarksize=\dimen296
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgflibraryfpu.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2012/11/30  (rcs-revision 1.38)
-\pgfpic=\box67
-\pgf@hbox=\box68
-\pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count192
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
-gfsupp_pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2012/11/07  (rcs-revision 1.5)
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
-tructure.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
-tructureext.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
-.code.tex
-\c@pgfplotsarray@tmp=\count193
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
-x.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
-d.code.tex
-\c@pgfplotstable@counta=\count194
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\list
+structure\pgfplotsmatrix.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\numt
+able\pgfplotstableshared.code.tex"
+\c@pgfplotstable@counta=\count190
 \t@pgfplotstable@a=\toks39
 )
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
-.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
-x
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
-de.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
-.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
-fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count195
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\list
+structure\pgfplotsdeque.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util
+\pgfplotsbinary.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util
+\pgfplotsbinary.data.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util
+\pgfplotsutil.verb.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\libs
+\pgflibrarypgfplots.surfshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count191
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
-shading.pgfsys-pdftex.def)))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
-tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
-))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
-ex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
-ex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
-e.tex))
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
-e.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
-) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
-\pgfplots@numplots=\count196
-\pgfplots@xmin@reg=\dimen297
-\pgfplots@xmax@reg=\dimen298
-\pgfplots@ymin@reg=\dimen299
-\pgfplots@ymax@reg=\dimen300
-\pgfplots@zmin@reg=\dimen301
-\pgfplots@zmax@reg=\dimen302
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\sys\
+pgflibrarypgfplots.surfshading.pgfsys-pdftex.def")))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util
+\pgfplotscolormap.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\util
+\pgfplotscolor.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lotsstackedplots.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lotsplothandlers.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lotsmeshplothandler.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lotsmeshplotimage.code.tex")))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lots.scaling.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lotscoordprocessing.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lots.errorbars.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lots.markers.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lotsticks.code.tex")
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lots.paths.code.tex")
+\pgfplots@numplots=\count192
+\pgfplots@xmin@reg=\dimen301
+\pgfplots@xmax@reg=\dimen302
+\pgfplots@ymin@reg=\dimen303
+\pgfplots@ymax@reg=\dimen304
+\pgfplots@zmin@reg=\dimen305
+\pgfplots@zmax@reg=\dimen306
 )
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotm
-arks.code.tex
-File: tikzlibraryplotmarks.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
-File: pgflibraryplotmarks.code.tex 2010/10/15 v2.10 (rcs-revision 1.12)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\pgflibraryplotmarks.code.tex"
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 )))
-(/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplotstable 2013/10/03 v1.9 Table typesetting and Pretty-printing (1
-.9)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\pgfplots\pgfplo
+tstable.sty"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\pgfp
+lots.revision.tex")
+Package: pgfplotstable 2016/01/06 v1.13 Table typesetting and Pretty-printing (
+1.13)
 
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.code
-.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable.colt
-ype.code.tex)))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrow
-s.code.tex
-File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\numt
+able\pgfplotstable.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgfplots\numt
+able\pgfplotstable.coltype.code.tex")))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
-File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
-\arrowsize=\dimen303
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\pgflibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen307
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.code.tex
-File: tikzlibraryshapes.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryshapes.code.tex"
+File: tikzlibraryshapes.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.geometric.code.tex
-File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryshapes.geometric.code.tex"
+File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.c
-ode.tex
-File: pgflibraryshapes.geometric.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\shapes\pgflibraryshapes.geometric.code.tex"
+File: pgflibraryshapes.geometric.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
+
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.misc.code.tex
-File: tikzlibraryshapes.misc.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryshapes.misc.code.tex"
+File: tikzlibraryshapes.misc.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.t
-ex
-File: pgflibraryshapes.misc.code.tex 2008/10/07 v2.10 (rcs-revision 1.3)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\shapes\pgflibraryshapes.misc.code.tex"
+File: pgflibraryshapes.misc.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.5)
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryshapes.symbols.code.tex"
+File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.cod
-e.tex
-File: pgflibraryshapes.symbols.code.tex 2009/10/27 v2.10 (rcs-revision 1.3)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\shapes\pgflibraryshapes.symbols.code.tex"
+File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryshapes.arrows.code.tex"
+File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code
-.tex
-File: pgflibraryshapes.arrows.code.tex 2008/06/26 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\shapes\pgflibraryshapes.arrows.code.tex"
+File: pgflibraryshapes.arrows.code.tex 2008/06/26 v3.0.1a (rcs-revision 1.1)
 ))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.callouts.code.tex
-(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.co
-de.tex))
-(/usr/share/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshape
-s.multipart.code.tex
-File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryshapes.callouts.code.tex"
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\shapes\pgflibraryshapes.callouts.code.tex"))
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\frontendl
+ayer\tikz\libraries\tikzlibraryshapes.multipart.code.tex"
+File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1
+)
 
-(/usr/share/texmf/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.c
-ode.tex
-File: pgflibraryshapes.multipart.code.tex 2010/01/07 v2.10 (rcs-revision 1.2)
-\pgfnodepartlowerbox=\box70
-\pgfnodeparttwobox=\box71
-\pgfnodepartthreebox=\box72
-\pgfnodepartfourbox=\box73
-\pgfnodeparttwentybox=\box74
-\pgfnodepartnineteenbox=\box75
-\pgfnodeparteighteenbox=\box76
-\pgfnodepartseventeenbox=\box77
-\pgfnodepartsixteenbox=\box78
-\pgfnodepartfifteenbox=\box79
-\pgfnodepartfourteenbox=\box80
-\pgfnodepartthirteenbox=\box81
-\pgfnodeparttwelvebox=\box82
-\pgfnodepartelevenbox=\box83
-\pgfnodeparttenbox=\box84
-\pgfnodepartninebox=\box85
-\pgfnodeparteightbox=\box86
-\pgfnodepartsevenbox=\box87
-\pgfnodepartsixbox=\box88
-\pgfnodepartfivebox=\box89
-))) (./papaa_poster.aux)
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\generic\pgf\libraries
+\shapes\pgflibraryshapes.multipart.code.tex"
+File: pgflibraryshapes.multipart.code.tex 2010/01/07 v3.0.1a (rcs-revision 1.2)
+
+\pgfnodepartlowerbox=\box69
+\pgfnodeparttwobox=\box70
+\pgfnodepartthreebox=\box71
+\pgfnodepartfourbox=\box72
+\pgfnodeparttwentybox=\box73
+\pgfnodepartnineteenbox=\box74
+\pgfnodeparteighteenbox=\box75
+\pgfnodepartseventeenbox=\box76
+\pgfnodepartsixteenbox=\box77
+\pgfnodepartfifteenbox=\box78
+\pgfnodepartfourteenbox=\box79
+\pgfnodepartthirteenbox=\box80
+\pgfnodeparttwelvebox=\box81
+\pgfnodepartelevenbox=\box82
+\pgfnodeparttenbox=\box83
+\pgfnodepartninebox=\box84
+\pgfnodeparteightbox=\box85
+\pgfnodepartsevenbox=\box86
+\pgfnodepartsixbox=\box87
+\pgfnodepartfivebox=\box88
+))) (papaa_poster.aux)
 \openout1 = `papaa_poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
@@ -1248,19 +1317,19 @@ LaTeX Font Info:    ... okay on input line 68.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen304
-\scratchbox=\box90
-\nofMPsegments=\count198
-\nofMParguments=\count199
+\scratchcounter=\count193
+\scratchdimen=\dimen308
+\scratchbox=\box89
+\nofMPsegments=\count194
+\nofMParguments=\count195
 \everyMPshowfont=\toks40
-\MPscratchCnt=\count200
-\MPscratchDim=\dimen305
-\MPnumerator=\count201
-Normal \count register pool exhausted, switching to extended pool.
-\makeMPintoPDFobject=\count277
+\MPscratchCnt=\count196
+\MPscratchDim=\dimen309
+\MPnumerator=\count197
+\makeMPintoPDFobject=\count198
 \everyMPtoPDFconversion=\toks41
 ) ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
@@ -1298,1205 +1367,1206 @@ Normal \count register pool exhausted, switching to extended pool.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-(/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
-onary/translator-basic-dictionary-English.dict
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\beamer\base\tra
+nslator\dicts\translator-basic-dictionary\translator-basic-dictionary-English.d
+ict"
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(/usr/share/texlive/texmf-dist/tex/latex/siunitx/config/siunitx-abbreviations.c
-fg
-File: siunitx-abbreviations.cfg 2013/07/31 v2.5s siunitx: Abbreviated units
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\siunitx\siunitx
+-abbreviations.cfg"
+File: siunitx-abbreviations.cfg 2016/01/19 v2.6p siunitx: Abbreviated units
 )
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \of with arg. spec. '' on line 68.
+. Defining command \of with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \highlight with arg. spec. '' on line 68.
+. Defining command \highlight with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \per with arg. spec. '' on line 68.
+. Defining command \per with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \raiseto with arg. spec. '' on line 68.
+. Defining command \raiseto with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tothe with arg. spec. '' on line 68.
+. Defining command \tothe with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kilogram with arg. spec. '' on line 68.
+. Defining command \kilogram with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \metre with arg. spec. '' on line 68.
+. Defining command \metre with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \meter with arg. spec. '' on line 68.
+. Defining command \meter with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mole with arg. spec. '' on line 68.
+. Defining command \mole with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \second with arg. spec. '' on line 68.
+. Defining command \second with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ampere with arg. spec. '' on line 68.
+. Defining command \ampere with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kelvin with arg. spec. '' on line 68.
+. Defining command \kelvin with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \candela with arg. spec. '' on line 68.
+. Defining command \candela with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gram with arg. spec. '' on line 68.
+. Defining command \gram with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yocto with arg. spec. '' on line 68.
+. Defining command \yocto with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zepto with arg. spec. '' on line 68.
+. Defining command \zepto with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atto with arg. spec. '' on line 68.
+. Defining command \atto with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \femto with arg. spec. '' on line 68.
+. Defining command \femto with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pico with arg. spec. '' on line 68.
+. Defining command \pico with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nano with arg. spec. '' on line 68.
+. Defining command \nano with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micro with arg. spec. '' on line 68.
+. Defining command \micro with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \milli with arg. spec. '' on line 68.
+. Defining command \milli with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centi with arg. spec. '' on line 68.
+. Defining command \centi with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deci with arg. spec. '' on line 68.
+. Defining command \deci with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deca with arg. spec. '' on line 68.
+. Defining command \deca with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \deka with arg. spec. '' on line 68.
+. Defining command \deka with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hecto with arg. spec. '' on line 68.
+. Defining command \hecto with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kilo with arg. spec. '' on line 68.
+. Defining command \kilo with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mega with arg. spec. '' on line 68.
+. Defining command \mega with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \giga with arg. spec. '' on line 68.
+. Defining command \giga with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tera with arg. spec. '' on line 68.
+. Defining command \tera with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \peta with arg. spec. '' on line 68.
+. Defining command \peta with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \exa with arg. spec. '' on line 68.
+. Defining command \exa with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zetta with arg. spec. '' on line 68.
+. Defining command \zetta with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yotta with arg. spec. '' on line 68.
+. Defining command \yotta with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \becquerel with arg. spec. '' on line 68.
+. Defining command \becquerel with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \celsius with arg. spec. '' on line 68.
+. Defining command \celsius with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \degreeCelsius with arg. spec. '' on line 68.
+. Defining command \degreeCelsius with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \coulomb with arg. spec. '' on line 68.
+. Defining command \coulomb with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \farad with arg. spec. '' on line 68.
+. Defining command \farad with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gray with arg. spec. '' on line 68.
+. Defining command \gray with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hertz with arg. spec. '' on line 68.
+. Defining command \hertz with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \henry with arg. spec. '' on line 68.
+. Defining command \henry with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \joule with arg. spec. '' on line 68.
+. Defining command \joule with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \katal with arg. spec. '' on line 68.
+. Defining command \katal with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lumen with arg. spec. '' on line 68.
+. Defining command \lumen with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lux with arg. spec. '' on line 68.
+. Defining command \lux with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \newton with arg. spec. '' on line 68.
+. Defining command \newton with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ohm with arg. spec. '' on line 68.
+. Defining command \ohm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pascal with arg. spec. '' on line 68.
+. Defining command \pascal with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \radian with arg. spec. '' on line 68.
+. Defining command \radian with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \siemens with arg. spec. '' on line 68.
+. Defining command \siemens with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \sievert with arg. spec. '' on line 68.
+. Defining command \sievert with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \steradian with arg. spec. '' on line 68.
+. Defining command \steradian with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tesla with arg. spec. '' on line 68.
+. Defining command \tesla with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \volt with arg. spec. '' on line 68.
+. Defining command \volt with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \watt with arg. spec. '' on line 68.
+. Defining command \watt with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \weber with arg. spec. '' on line 68.
+. Defining command \weber with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcmin with arg. spec. '' on line 68.
+. Defining command \arcmin with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcminute with arg. spec. '' on line 68.
+. Defining command \arcminute with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcsecond with arg. spec. '' on line 68.
+. Defining command \arcsecond with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \degree with arg. spec. '' on line 68.
+. Defining command \degree with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hectare with arg. spec. '' on line 68.
+. Defining command \hectare with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hour with arg. spec. '' on line 68.
+. Defining command \hour with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \litre with arg. spec. '' on line 68.
+. Defining command \litre with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \liter with arg. spec. '' on line 68.
+. Defining command \liter with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \minute with arg. spec. '' on line 68.
+. Defining command \minute with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \percent with arg. spec. '' on line 68.
+. Defining command \percent with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \tonne with arg. spec. '' on line 68.
+. Defining command \tonne with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \astronomicalunit with arg. spec. '' on line 68.
+. Defining command \astronomicalunit with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atomicmassunit with arg. spec. '' on line 68.
+. Defining command \atomicmassunit with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \electronvolt with arg. spec. '' on line 68.
+. Defining command \electronvolt with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dalton with arg. spec. '' on line 68.
+. Defining command \dalton with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \clight with arg. spec. '' on line 68.
+. Defining command \clight with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \electronmass with arg. spec. '' on line 68.
+. Defining command \electronmass with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \planckbar with arg. spec. '' on line 68.
+. Defining command \planckbar with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \elementarycharge with arg. spec. '' on line 68.
+. Defining command \elementarycharge with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bohr with arg. spec. '' on line 68.
+. Defining command \bohr with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hartree with arg. spec. '' on line 68.
+. Defining command \hartree with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \angstrom with arg. spec. '' on line 68.
+. Defining command \angstrom with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \barn with arg. spec. '' on line 68.
+. Defining command \barn with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bel with arg. spec. '' on line 68.
+. Defining command \bel with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \decibel with arg. spec. '' on line 68.
+. Defining command \decibel with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \knot with arg. spec. '' on line 68.
+. Defining command \knot with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mmHg with arg. spec. '' on line 68.
+. Defining command \mmHg with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nauticalmile with arg. spec. '' on line 68.
+. Defining command \nauticalmile with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \neper with arg. spec. '' on line 68.
+. Defining command \neper with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \square with arg. spec. '' on line 68.
+. Defining command \square with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squared with arg. spec. '' on line 68.
+. Defining command \squared with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubic with arg. spec. '' on line 68.
+. Defining command \cubic with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubed with arg. spec. '' on line 68.
+. Defining command \cubed with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Square with arg. spec. '' on line 68.
+. Defining command \Square with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ssquare with arg. spec. '' on line 68.
+. Defining command \ssquare with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \BAR with arg. spec. '' on line 68.
+. Defining command \BAR with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \bbar with arg. spec. '' on line 68.
+. Defining command \bbar with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Day with arg. spec. '' on line 68.
+. Defining command \Day with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dday with arg. spec. '' on line 68.
+. Defining command \dday with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Gray with arg. spec. '' on line 68.
+. Defining command \Gray with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ggray with arg. spec. '' on line 68.
+. Defining command \ggray with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \atomicmass with arg. spec. '' on line 68.
+. Defining command \atomicmass with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \arcsec with arg. spec. '' on line 68.
+. Defining command \arcsec with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \are with arg. spec. '' on line 68.
+. Defining command \are with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \curie with arg. spec. '' on line 68.
+. Defining command \curie with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gal with arg. spec. '' on line 68.
+. Defining command \gal with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \millibar with arg. spec. '' on line 68.
+. Defining command \millibar with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \rad with arg. spec. '' on line 68.
+. Defining command \rad with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \rem with arg. spec. '' on line 68.
+. Defining command \rem with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \roentgen with arg. spec. '' on line 68.
+. Defining command \roentgen with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micA with arg. spec. '' on line 68.
+. Defining command \micA with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micmol with arg. spec. '' on line 68.
+. Defining command \micmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micl with arg. spec. '' on line 68.
+. Defining command \micl with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micL with arg. spec. '' on line 68.
+. Defining command \micL with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nanog with arg. spec. '' on line 68.
+. Defining command \nanog with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micg with arg. spec. '' on line 68.
+. Defining command \micg with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \picm with arg. spec. '' on line 68.
+. Defining command \picm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micm with arg. spec. '' on line 68.
+. Defining command \micm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Sec with arg. spec. '' on line 68.
+. Defining command \Sec with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mics with arg. spec. '' on line 68.
+. Defining command \mics with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cmc with arg. spec. '' on line 68.
+. Defining command \cmc with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dmc with arg. spec. '' on line 68.
+. Defining command \dmc with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cms with arg. spec. '' on line 68.
+. Defining command \cms with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centimetrecubed with arg. spec. '' on line 68.
+. Defining command \centimetrecubed with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \centimetresquared with arg. spec. '' on line 68.
+. Defining command \centimetresquared with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubiccentimetre with arg. spec. '' on line 68.
+. Defining command \cubiccentimetre with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cubicdecimetre with arg. spec. '' on line 68.
+. Defining command \cubicdecimetre with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squarecentimetre with arg. spec. '' on line 68.
+. Defining command \squarecentimetre with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squaremetre with arg. spec. '' on line 68.
+. Defining command \squaremetre with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \squarekilometre with arg. spec. '' on line 68.
+. Defining command \squarekilometre with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \parsec with arg. spec. '' on line 68.
+. Defining command \parsec with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lightyear with arg. spec. '' on line 68.
+. Defining command \lightyear with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gmol with arg. spec. '' on line 68.
+. Defining command \gmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kgmol with arg. spec. '' on line 68.
+. Defining command \kgmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \lbmol with arg. spec. '' on line 68.
+. Defining command \lbmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \molar with arg. spec. '' on line 68.
+. Defining command \molar with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Molar with arg. spec. '' on line 68.
+. Defining command \Molar with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \torr with arg. spec. '' on line 68.
+. Defining command \torr with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gon with arg. spec. '' on line 68.
+. Defining command \gon with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \micron with arg. spec. '' on line 68.
+. Defining command \micron with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mrad with arg. spec. '' on line 68.
+. Defining command \mrad with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \gauss with arg. spec. '' on line 68.
+. Defining command \gauss with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \eVperc with arg. spec. '' on line 68.
+. Defining command \eVperc with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nanobarn with arg. spec. '' on line 68.
+. Defining command \nanobarn with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \picobarn with arg. spec. '' on line 68.
+. Defining command \picobarn with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \femtobarn with arg. spec. '' on line 68.
+. Defining command \femtobarn with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \attobarn with arg. spec. '' on line 68.
+. Defining command \attobarn with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zeptobarn with arg. spec. '' on line 68.
+. Defining command \zeptobarn with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yoctobarn with arg. spec. '' on line 68.
+. Defining command \yoctobarn with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nb with arg. spec. '' on line 68.
+. Defining command \nb with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pb with arg. spec. '' on line 68.
+. Defining command \pb with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fb with arg. spec. '' on line 68.
+. Defining command \fb with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ab with arg. spec. '' on line 68.
+. Defining command \ab with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \zb with arg. spec. '' on line 68.
+. Defining command \zb with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \yb with arg. spec. '' on line 68.
+. Defining command \yb with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \A with arg. spec. '' on line 68.
+. Defining command \A with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pA with arg. spec. '' on line 68.
+. Defining command \pA with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nA with arg. spec. '' on line 68.
+. Defining command \nA with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uA with arg. spec. '' on line 68.
+. Defining command \uA with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mA with arg. spec. '' on line 68.
+. Defining command \mA with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kA with arg. spec. '' on line 68.
+. Defining command \kA with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Hz with arg. spec. '' on line 68.
+. Defining command \Hz with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mHz with arg. spec. '' on line 68.
+. Defining command \mHz with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kHz with arg. spec. '' on line 68.
+. Defining command \kHz with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MHz with arg. spec. '' on line 68.
+. Defining command \MHz with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GHz with arg. spec. '' on line 68.
+. Defining command \GHz with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \THz with arg. spec. '' on line 68.
+. Defining command \THz with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mol with arg. spec. '' on line 68.
+. Defining command \mol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fmol with arg. spec. '' on line 68.
+. Defining command \fmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pmol with arg. spec. '' on line 68.
+. Defining command \pmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nmol with arg. spec. '' on line 68.
+. Defining command \nmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \umol with arg. spec. '' on line 68.
+. Defining command \umol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mmol with arg. spec. '' on line 68.
+. Defining command \mmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kmol with arg. spec. '' on line 68.
+. Defining command \kmol with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \V with arg. spec. '' on line 68.
+. Defining command \V with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pV with arg. spec. '' on line 68.
+. Defining command \pV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nV with arg. spec. '' on line 68.
+. Defining command \nV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uV with arg. spec. '' on line 68.
+. Defining command \uV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mV with arg. spec. '' on line 68.
+. Defining command \mV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kV with arg. spec. '' on line 68.
+. Defining command \kV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hl with arg. spec. '' on line 68.
+. Defining command \hl with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ml with arg. spec. '' on line 68.
+. Defining command \ml with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ul with arg. spec. '' on line 68.
+. Defining command \ul with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \hL with arg. spec. '' on line 68.
+. Defining command \hL with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mL with arg. spec. '' on line 68.
+. Defining command \mL with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uL with arg. spec. '' on line 68.
+. Defining command \uL with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fg with arg. spec. '' on line 68.
+. Defining command \fg with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pg with arg. spec. '' on line 68.
+. Defining command \pg with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ug with arg. spec. '' on line 68.
+. Defining command \ug with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mg with arg. spec. '' on line 68.
+. Defining command \mg with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \g with arg. spec. '' on line 68.
+. Defining command \g with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kg with arg. spec. '' on line 68.
+. Defining command \kg with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \amu with arg. spec. '' on line 68.
+. Defining command \amu with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \W with arg. spec. '' on line 68.
+. Defining command \W with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \uW with arg. spec. '' on line 68.
+. Defining command \uW with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mW with arg. spec. '' on line 68.
+. Defining command \mW with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kW with arg. spec. '' on line 68.
+. Defining command \kW with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MW with arg. spec. '' on line 68.
+. Defining command \MW with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GW with arg. spec. '' on line 68.
+. Defining command \GW with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \J with arg. spec. '' on line 68.
+. Defining command \J with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kJ with arg. spec. '' on line 68.
+. Defining command \kJ with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \eV with arg. spec. '' on line 68.
+. Defining command \eV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \meV with arg. spec. '' on line 68.
+. Defining command \meV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \keV with arg. spec. '' on line 68.
+. Defining command \keV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MeV with arg. spec. '' on line 68.
+. Defining command \MeV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GeV with arg. spec. '' on line 68.
+. Defining command \GeV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \TeV with arg. spec. '' on line 68.
+. Defining command \TeV with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kWh with arg. spec. '' on line 68.
+. Defining command \kWh with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \m with arg. spec. '' on line 68.
+. Defining command \m with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \nm with arg. spec. '' on line 68.
+. Defining command \nm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \um with arg. spec. '' on line 68.
+. Defining command \um with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mm with arg. spec. '' on line 68.
+. Defining command \mm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \cm with arg. spec. '' on line 68.
+. Defining command \cm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dm with arg. spec. '' on line 68.
+. Defining command \dm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \km with arg. spec. '' on line 68.
+. Defining command \km with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \K with arg. spec. '' on line 68.
+. Defining command \K with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \dB with arg. spec. '' on line 68.
+. Defining command \dB with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \F with arg. spec. '' on line 68.
+. Defining command \F with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fF with arg. spec. '' on line 68.
+. Defining command \fF with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \pF with arg. spec. '' on line 68.
+. Defining command \pF with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \N with arg. spec. '' on line 68.
+. Defining command \N with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mN with arg. spec. '' on line 68.
+. Defining command \mN with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kN with arg. spec. '' on line 68.
+. Defining command \kN with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MN with arg. spec. '' on line 68.
+. Defining command \MN with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Pa with arg. spec. '' on line 68.
+. Defining command \Pa with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kPa with arg. spec. '' on line 68.
+. Defining command \kPa with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \MPa with arg. spec. '' on line 68.
+. Defining command \MPa with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \GPa with arg. spec. '' on line 68.
+. Defining command \GPa with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \mohm with arg. spec. '' on line 68.
+. Defining command \mohm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \kohm with arg. spec. '' on line 68.
+. Defining command \kohm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \Mohm with arg. spec. '' on line 68.
+. Defining command \Mohm with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \s with arg. spec. '' on line 68.
+. Defining command \s with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \as with arg. spec. '' on line 68.
+. Defining command \as with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \fs with arg. spec. '' on line 68.
+. Defining command \fs with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ps with arg. spec. '' on line 68.
+. Defining command \ps with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ns with arg. spec. '' on line 68.
+. Defining command \ns with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \us with arg. spec. '' on line 68.
+. Defining command \us with sig. '' on line 68.
 .................................................
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
-. Defining document command \ms with arg. spec. '' on line 68.
+. Defining command \ms with sig. '' on line 68.
 .................................................
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 Package pgfplots notification 'compat/show suggested version=true': document ha
-s been generated with the most recent feature set (\pgfplotsset{compat=1.9}).
+s been generated with the most recent feature set (\pgfplotsset{compat=1.13}).
 
-\c__siunitx_mathsf_int=\count278
-\c__siunitx_mathtt_int=\count279
+\c__siunitx_mathsf_int=\count199
+\c__siunitx_mathtt_int=\count266
 Poster rendering started
-<pix/logo.pdf, id=20, 339.51843pt x 138.5175pt>
+<pix/logo.pdf, id=28, 339.51843pt x 138.5175pt>
 File: pix/logo.pdf Graphic file (type pdf)
  <use pix/logo.pdf>
 Package pdftex.def Info: pix/logo.pdf used on input line 128.
@@ -2504,19 +2574,22 @@ Package pdftex.def Info: pix/logo.pdf used on input line 128.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 128.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
+File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 156.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+ ("C:\Users\Abhishek\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd
+"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 156.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
+
+Memory usage before: 5405&1030908; after: 5377&1030901; still untouched: 194714
+7
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -2527,13 +2600,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--188
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 188--188
-[]\T1/cmr/m/n/10 kernel op-ti-miza-tions like vec-tor-iza-tion,
- []
-
-
-Underfull \hbox (badness 1117) in paragraph at lines 188--188
-[]\T1/cmr/m/n/10 Dynamic re-programming of FPGA at
+Underfull \hbox (badness 1122) in paragraph at lines 188--188
+[]\T1/cmr/m/n/10 Kernel op-ti-miza-tions like vec-tor-iza-tion,
  []
 
 Missing character: There is no ; in font nullfont!
@@ -2542,13 +2610,13 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-<pix/mxpflow.png, id=22, 1358.07375pt x 707.64375pt>
+<pix/mxpflow.png, id=31, 1358.07375pt x 707.64375pt>
 File: pix/mxpflow.png Graphic file (type png)
  <use pix/mxpflow.png>
 Package pdftex.def Info: pix/mxpflow.png used on input line 225.
 (pdftex.def)             Requested size: 149.96338pt x 78.13258pt.
 
-<pix/vectorlane.png, id=23, 1568.86125pt x 659.46375pt>
+<pix/vectorlane.png, id=32, 1568.86125pt x 659.46375pt>
 File: pix/vectorlane.png Graphic file (type png)
 
 <use pix/vectorlane.png>
@@ -2557,7 +2625,7 @@ Package pdftex.def Info: pix/vectorlane.png used on input line 225.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- <pix/aoclflow.jpg, id=24, 248.93pt x 263.98625pt>
+ <pix/aoclflow.jpg, id=33, 248.93pt x 263.98625pt>
 File: pix/aoclflow.jpg Graphic file (type jpg)
 
 <use pix/aoclflow.jpg>
@@ -2566,7 +2634,7 @@ Package pdftex.def Info: pix/aoclflow.jpg used on input line 251.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- <pix/codesnip.png, id=25, 738.76pt x 425.59pt>
+ <pix/codesnip.png, id=34, 738.76pt x 425.59pt>
 File: pix/codesnip.png Graphic file (type png)
 
 <use pix/codesnip.png>
@@ -2575,11 +2643,11 @@ Package pdftex.def Info: pix/codesnip.png used on input line 267.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
- (./result.tex
-Package pgfplots info: Overriding colorspace to cmyk due to xcolor configuratio
-n.
-Package pgfplots info: Overriding colorspace to cmyk due to xcolor configuratio
-n.
+ (result.tex
+Package pgfplots info on input line 85: Overriding colorspace to cmyk due to xc
+olor configuration.
+Package pgfplots info on input line 85: Overriding colorspace to cmyk due to xc
+olor configuration.
 )
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -2591,40 +2659,36 @@ Overfull \hbox (2.22534pt too wide) in paragraph at lines 128--284
 
 [2
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-Memory usage before: 54913&892668; after: 54885&892661; still untouched: 403261
-4
- <./pix/logo.pdf
-
-pdfTeX warning: pdflatex (file ./pix/logo.pdf): PDF inclusion: multiple pdfs wi
-th page group included in a single page
-> <./pix/mxpflow.png (PNG copy)> <./pix/vectorlane.png (PNG copy)> <./pix/aoclf
-low.jpg> <./pix/codesnip.png>]
-Memory usage before: 54885&892645; after: 29141&889100; still untouched: 403261
-4
-(./papaa_poster.aux) ) 
+{C:/Users/Abhishek/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pix/lo
+go.pdf> <./pix/mxpflow.png (PNG copy)> <./pix/vectorlane.png (PNG copy)> <./pix
+/aoclflow.jpg> <./pix/codesnip.png>]
+Memory usage before: 52517&1058322; after: 27789&1054971; still untouched: 1862
+183
+(papaa_poster.aux) ) 
 Here is how much of TeX's memory you used:
- 33505 strings out of 493304
- 807576 string characters out of 6139871
- 967386 words of memory out of 5000000
- 36338 multiletter control sequences out of 15000+600000
- 13983 words of font info for 33 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 63i,26n,92p,10434b,2788s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.en
-c}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
-/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/
-cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb
->
-Output written on papaa_poster.pdf (1 page, 891089 bytes).
+ 38939 strings out of 493634
+ 980678 string characters out of 3134016
+ 1137817 words of memory out of 3000000
+ 41755 multiletter control sequences out of 15000+200000
+ 13983 words of font info for 33 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 62i,26n,107p,10395b,2945s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Abhishek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecrm0500.pk> <C:\Users\Abhishek\AppData\Local\MiKTeX\2.9\f
+onts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk> <C:\Users\Abhishek\AppData\Local
+\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Abhishek\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Us
+ers\Abhishek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm12
+00.pk> <C:\Users\Abhishek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\
+dpi600\ecrm1440.pk> <C:\Users\Abhishek\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbx2074.pk><C:/Users/Abhishek/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Abhishek/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Abhish
+ek/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+
+Output written on papaa_poster.pdf (1 page, 853536 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 336 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

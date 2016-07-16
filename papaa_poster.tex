@@ -123,7 +123,7 @@ Accelerator Design at High Level of \\ Programming Abstraction
 %%% Authors %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {
 	\vspace{0.3em} Prashant Ravi, Abhishek Kumar Jain, Suhaib A. Fahmy, Douglas L. Maskell\\
-	{\smaller prashant014@ntu.edu.sg, abhishek013@ntu.edu.sg, sfahmy@ntu.edu.sg, asdouglas@ntu.edu.sg}
+	{\smaller prashant014@ntu.edu.sg, abhishek013@ntu.edu.sg, s.fahmy@warwick.ac.uk, asdouglas@ntu.edu.sg}
 }
 
 
@@ -172,16 +172,16 @@ Coarse-Grained FPGA Overlays:
 The Vectorblox MXP soft vector processor:
 \begin{itemize}\itemsep1pt \parskip0pt
 	\item Extremely short learning curve
-	\item The Vectorblox MXP C/C++ api is extremely easy to use.
-	\item Full control of DMA and execution to programmer.
-	\item Compilation and debugging time equal to that of traditional C/C++ debugging.
+	\item Easy to use MXP C/C++ APIs 
+%	\item Full control of DMA and execution to programmer
+	\item Compilation and debugging time equal to that of traditional C/C++ debugging
 \end{itemize}
 The Altera OpenCL SDK:
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Minimal modification of traditional OpenCL code required.
-	\item kernel optimizations like vectorization, hardware replication for parallelism.
-	\item Dynamic re-programming of FPGA at runtime with totally new kernel.
-	\item Host code portability across all devices. 
+	\item Minimal modification of traditional OpenCL code required
+	\item Kernel optimizations like vectorization, hardware replication for parallelism
+%	\item FPGA reconfiguration at runtime with new kernel
+	\item Host code portability across all devices
 \end{itemize}	
 	
 
@@ -252,7 +252,7 @@ The Altera OpenCL SDK:
 
 \headerbox{Quick Easy Mapping of Compute Kernels}{name=setup,span=2,column=1,below=functionalunit}{
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Utilization of C Api very straightforward in case of Vectorblox.
+%	\item Utilization of C Api very straightforward in case of Vectorblox.
 	\item Translation of C code to OpenCL and VBX code fairly straightforward
 	\item Placement and Routing required in case of AOCL, and only compilation in case of vectorblox.
 \end{itemize}	
