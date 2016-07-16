@@ -117,34 +117,41 @@
 %}
 %%% Title %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {\huge\sf\bf
-Hardware Acceleration Without The Use Of ~RTL
+Accelerator Design at High Level of \\ Programming Abstraction 
+%Hardware Acceleration Without The Use Of ~RTL
 }
 %%% Authors %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 {
-	\vspace{0.3em} Prashant Ravi\\
-	{\smaller prashant014@ntu.edu.sg}
+	\vspace{0.3em} Prashant Ravi, Abhishek Kumar Jain, Suhaib A. Fahmy, Douglas L. Maskell\\
+	{\smaller prashant014@ntu.edu.sg, abhishek013@ntu.edu.sg, sfahmy@ntu.edu.sg, asdouglas@ntu.edu.sg}
 }
 
 
 
 \headerbox{Background and Motivation}{name=problem,column=0,row=0}{
-Major issues in mainstream adoption of FPGAs:
+Accelerator Design Productivity Issues:
+%Major issues in mainstream adoption of FPGAs:
 \begin{itemize}\itemsep1pt \parskip0pt
 \item Difficulty of accelerator design at low level
+\item Complex Host-Accelerator interfacing 
+\item Lack of software like abstractions 
 \item Long compilation times (Place and route)
-\item Poor design productivity
 \end{itemize}
-One possible solution is to use FPGA Overlay:
+One solution: High Level Synthesis (HLS)
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Accelerator design in a high level language
-	\item Fast compilation and development cycles	
-	\item Easy to use even by novice programmers
-	\item Puts the FPGA in the hands of software developers.	
+\item Accelerator design in a high level language
+\item Automated host-accelerator interfacing
+\item RTL generation from C/C++/OpenCL
+\item Benefits of software like abstractions 
+\item SDSoC, \textbf{AOCL}, SDAccel
+\item Long compilation time still an issue
 \end{itemize}
-Another solution is to use novel high level synthesis tools:
+Coarse-Grained FPGA Overlays:
 \begin{itemize}\itemsep1pt \parskip0pt
-\item HLS tools to generate C to RTL, eg:Vivado HLS, SDSoC
-\item OpenCL to hardware design synthesis eg:AOCL, SDAccel
+\item Fast compilation and development cycles	
+\item Easy to use even by novice programmers
+\item Access of FPGA for software developers	
+\item \textbf{MXP}, GRVI-Phalanx, DeCO, DySER
 \end{itemize}
 }
 
@@ -184,10 +191,10 @@ The Altera OpenCL SDK:
 
 \headerbox{Conclusions and Future Work}{name=conclusion,column=0,below=analysis,above=bottom}{
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item More popularity of overlays and high level synthesis tools.
-	\item Place and route effeciency improvements in OpenCL to hardware.
-	\item Overall generated hardware effeciency improvment.
-	\item More awareness in the software world and amongst software developers.
+	\item More popularity of overlays and high level synthesis tools
+	\item Place and route effeciency improvements in OpenCL to hardware
+	\item Overall generated hardware effeciency improvment
+	\item More awareness in the software world and amongst software developers
 \end{itemize}
 } 
 
@@ -195,10 +202,10 @@ The Altera OpenCL SDK:
 
 \headerbox{The Vectorblox MXP Processor}{name=designmethod,column=1,row=0}{ 
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Has a number of vector lanes containing an ALU in each lane.
-	\item Parallel processing on multiple vector input elements.
-	\item Extremely good for integer operations, lacks floating point.
-	\item Customizable vector lanes and option to add custom instructions.	
+	\item Accelerating Bare metal C/C++ applications on Zynq using MXP
+	\item Easy to use software APIs for embedded vector processing
+	\item 16 vector lanes each containing an ALU
+	\item Good for integer operations, lacks floating point
 \end{itemize}
 %\vspace{-0.2em}
 \setlength\fboxsep{0pt}
@@ -249,10 +256,15 @@ The Altera OpenCL SDK:
 	\item Translation of C code to OpenCL and VBX code fairly straightforward
 	\item Placement and Routing required in case of AOCL, and only compilation in case of vectorblox.
 \end{itemize}	
-\input{dfgs}
+%\input{dfgs}
+
+
+\begin{center}   
+	\includegraphics[width=35em]{codesnip}
+\end{center}       	
+
+
 }
-
-
 
 \headerbox{Experimental Evaluation}{name=experiment1,span=2,column=1,below=setup,above=bottom}{
 \begin{itemize}\itemsep1pt \parskip0pt
@@ -263,9 +275,8 @@ The Altera OpenCL SDK:
 \input{result}
 \vspace{-2em}	
 \begin{itemize}\itemsep1pt \parskip0pt
-	\item Both Vectorblox and AOCL Implementations perform better than the Arm CPU.
-	\item Overall The Vectorblox performs better than the AOCL Implementation.
-	\item Simple acceleration methods like this will give any novice software engineer the power to accelerate his code on FPGA's within record time.
+	\item The MXP gave a \textbf{1.6x Operations Per Cycle} increase over ARM and a \textbf{1.5x Speedup}.
+	\item The AOCL implementation gave \textbf{3.3x Operations per Cycle} increase over ARM with a \textbf{4x Speedup}.
 \end{itemize}	
 }
 

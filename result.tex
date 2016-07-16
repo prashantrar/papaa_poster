@@ -80,49 +80,7 @@
 	OpenCL Implementation Timing Comparison between ARM CPU and AOCL FPGA Implementation.   
 							
 	\end{minipage}
-
-	\begin{minipage}{13em}
-	\begin{center}   
-
-
-	\begin{tikzpicture}[scale=0.5]
-	 \begin{axis}[
-	 xlabel=Data Samples,
-	 ylabel=Time Taken(us),
-	 enlarge y limits = true,
-	 ymax = 160,
-	 xmax = 1100,
-	 legend pos=north west,
-	 legend style={draw=none}
-	 ]
-	 \addplot [smooth,mark=x,red] plot coordinates {
-			(64,     74)
-			(128,    81)
-			(256,    85)
-			(512,    133)
-			(1024,   147)			
-		};
-		\addplot [smooth,mark=*,dashed] plot coordinates {
-			(64,     2.7)
-			(128,    5.2)
-			(256,    10.4)
-			(512,    20)
-			(1024,   41)
-			
-		};
-	 
-	 
-	 \legend{AOCL(DE0)\\Vectorblox\\}
-	 \end{axis}
-	 \end{tikzpicture}					
-								
-	 
-	\end{center} 
-	\tiny
-	Comparison of Timing Performance between Vectorblox and AOCL Implementation on DE0   						
-	\end{minipage}
-						
-			
+					
 		}
 	}
 \end{center}
