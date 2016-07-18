@@ -1,0 +1,11 @@
+Device,Samples,Ops_Per_Cyc
+Zedboard ARM,64,0.497160746
+Zedboard ARM,128,0.506285054
+Zedboard ARM,256,0.507332541
+Zedboard ARM,512,0.508941263
+Zedboard ARM,1024,0.509492026
+Zedboard Vectorblox,64,5.451851852
+Zedboard Vectorblox,128,5.661538462
+Zedboard Vectorblox,256,5.661538462
+Zedboard Vectorblox,512,5.888
+Zedboard Vectorblox,1024,5.744390244

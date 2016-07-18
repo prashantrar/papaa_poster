@@ -1,0 +1,11 @@
+Device,Samples,Time
+Zedboard Arm(CPU),64,387
+Zedboard Arm(CPU),128,405
+Zedboard Arm(CPU),256,424
+Zedboard Arm(CPU),512,460
+Zedboard Arm(CPU),1024,497
+DE0-Nano(FPGA),64,74
+DE0-Nano(FPGA),128,81
+DE0-Nano(FPGA),256,85
+DE0-Nano(FPGA),512,133
+DE0-Nano(FPGA),1024,147

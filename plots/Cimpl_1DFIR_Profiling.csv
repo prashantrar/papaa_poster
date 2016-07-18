@@ -1,0 +1,11 @@
+Device,Samples,Time
+Zedboard ARM,64,4.439
+Zedboard ARM,128,8.718
+Zedboard ARM,256,17.4
+Zedboard ARM,512,34.69
+Zedboard ARM,1024,69.305
+Zedboard Vectorblox,64,2.7
+Zedboard Vectorblox,128,5.2
+Zedboard Vectorblox,256,10.4
+Zedboard Vectorblox,512,20
+Zedboard Vectorblox,1024,41

@@ -251,35 +251,20 @@ The Altera OpenCL SDK:
 }
 
 \headerbox{Quick Easy Mapping of Compute Kernels}{name=setup,span=2,column=1,below=functionalunit}{
-\begin{itemize}\itemsep1pt \parskip0pt
-%	\item Utilization of C Api very straightforward in case of Vectorblox.
-	\item Translation of C code to OpenCL and VBX code fairly straightforward
-	\item Placement and Routing required in case of AOCL, and only compilation in case of vectorblox.
-\end{itemize}	
-%\input{dfgs}
-
-
 \begin{center}   
 	\includegraphics[width=35em]{codesnip}
-\end{center}       	
-
-
+\end{center}
 }
 
-\headerbox{Experimental Evaluation}{name=experiment1,span=2,column=1,below=setup,above=bottom}{
-\begin{itemize}\itemsep1pt \parskip0pt
-	\item 12-Tap FIR filter kernel was executed on vectorblox, ARM CPU on Zedboard and on the Cyclone V FPGA with AOCL and the timing performance was compared.
-	\item The Vectorblox and AOCL implementations ran faster than the ARM but when comapred to AOCL, Vectorblox performed much faster. 
-	\end{itemize}
-\vspace{-2em}	
+\headerbox{Experimental Evaluation}{name=experiment1,span=2,column=1,below=setup,above=bottom}{	
 \input{result}
+\vspace{-2em}
+\input{result_new}
 \vspace{-2em}	
 \begin{itemize}\itemsep1pt \parskip0pt
 	\item The MXP gave a \textbf{1.6x Operations Per Cycle} increase over ARM and a \textbf{1.5x Speedup}.
 	\item The AOCL implementation gave \textbf{3.3x Operations per Cycle} increase over ARM with a \textbf{4x Speedup}.
 \end{itemize}	
 }
-
-
 \end{poster}
 \end{document}
