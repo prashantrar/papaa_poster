@@ -15,17 +15,17 @@ p<-ggplot(data=df,aes(group=factor(Device),color=factor(Device),x=Samples,y=Ops_
 p + theme_fivethirtyeight() %+replace% theme(axis.title=element_text(),axis.title.y=theme_bw()$axis.title.y) +
   ylab('Ops Per Cycle')+xlab('Number of Samples')+
   theme(
-    legend.position=c(0.18,0.9),
+    legend.position=c(0.20,1.0),
     legend.title=element_blank(),
     legend.background = element_rect(fill="transparent"),
     legend.key=element_blank(),
     legend.key.width=unit(0.4,"cm"),
     legend.key.height=unit(0.3,"cm"),
     plot.background=element_blank(),
-    text = element_text(size=8),
+    text = element_text(size=9),
     axis.text.x=element_text(angle=0,hjust=0.5,size=8),
     axis.text.y=element_text(angle=0,hjust=1,size=8),
-    legend.text=element_text(size=3)) +
+    legend.text=element_text(size=9)) +
   theme(axis.line.x = element_line(color = 'black',size=0.5, linetype='solid'),axis.line.y = element_line(color = 'black',size=0.5, linetype='solid'))+
   theme(axis.line = element_line(colour = "black"),
         panel.border = element_blank(),
