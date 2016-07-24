@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.14)  19 JUL 2016 09:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.14)  19 JUL 2016 09:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2610,7 +2610,7 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (2.22534pt too wide) in paragraph at lines 128--269
+Overfull \hbox (2.22534pt too wide) in paragraph at lines 128--271
 [][]  [] 
  []
 
@@ -2621,13 +2621,13 @@ ogo.pdf> <./pix/mxpflow.png (PNG copy)> <./pix/vectorlane.png (PNG copy)> <./pi
 x/aoclflow.jpg> <./pix/codesnip.png> <./plots/Cimpl_1DFIR_Profiling.pdf> <./plo
 ts/CL_1DFIR_Profiling.pdf> <./plots/Cimpl_1DFIR_Profile_Ops.pdf> <./plots/CL_1D
 FIR_Profile_Ops.pdf>]
-Memory usage before: 40106&1009976; after: 21382&1006914; still untouched: 3942
-053
+Memory usage before: 39216&1009670; after: 20903&1006740; still untouched: 3942
+562
 (./papaa_poster.aux) ) 
 Here is how much of TeX's memory you used:
  37044 strings out of 493089
  929390 string characters out of 6134841
- 1057947 words of memory out of 5000000
+ 1057438 words of memory out of 5000000
  39947 multiletter control sequences out of 15000+600000
  13983 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2642,7 +2642,7 @@ rm0500.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm
 1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm12
 00.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1440
 .pfb>
-Output written on papaa_poster.pdf (1 page, 892988 bytes).
+Output written on papaa_poster.pdf (1 page, 878376 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
